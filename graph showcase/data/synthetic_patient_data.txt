@@ -1,0 +1,1272 @@
+=== SYNTHETIC SINGAPOREAN PATIENT DATASET ===
+
+PATIENT: Tan Wei Ling (S1001) - Age: 72, Race: Chinese
+--------------------------------------------------
+[ED Note 1/25]
+Complaint: Fall
+Triage: P1 | Vitals: BP 115/68 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 2/25]
+Complaint: Chest Pain
+Triage: P2 | Vitals: BP 123/81 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 3/25]
+Complaint: Chest Pain
+Triage: P2 | Vitals: BP 116/87 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 4/25]
+Complaint: Chest Pain
+Triage: P3 | Vitals: BP 150/70 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 5/25]
+Complaint: Fever
+Triage: P3 | Vitals: BP 121/67 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 6/25]
+Complaint: Fever
+Triage: P2 | Vitals: BP 142/69 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 7/25]
+Complaint: Giddiness
+Triage: P3 | Vitals: BP 154/62 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 8/25]
+Complaint: Giddiness
+Triage: P3 | Vitals: BP 137/83 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 9/25]
+Complaint: Abdominal Pain
+Triage: P3 | Vitals: BP 106/95 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 10/25]
+Complaint: Shortness of Breath
+Triage: P1 | Vitals: BP 112/75 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 11/25]
+Complaint: Abdominal Pain
+Triage: P1 | Vitals: BP 127/94 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 12/25]
+Complaint: Abdominal Pain
+Triage: P2 | Vitals: BP 115/67 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 13/25]
+Complaint: Fall
+Triage: P3 | Vitals: BP 114/72 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 14/25]
+Complaint: Fever
+Triage: P2 | Vitals: BP 109/74 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 15/25]
+Complaint: Fall
+Triage: P1 | Vitals: BP 126/67 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 16/25]
+Complaint: Fall
+Triage: P3 | Vitals: BP 151/87 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 17/25]
+Complaint: Abdominal Pain
+Triage: P3 | Vitals: BP 115/61 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 18/25]
+Complaint: Chest Pain
+Triage: P3 | Vitals: BP 138/70 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 19/25]
+Complaint: Abdominal Pain
+Triage: P2 | Vitals: BP 105/65 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 20/25]
+Complaint: Giddiness
+Triage: P1 | Vitals: BP 137/73 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 21/25]
+Complaint: Shortness of Breath
+Triage: P1 | Vitals: BP 133/77 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 22/25]
+Complaint: Fever
+Triage: P2 | Vitals: BP 109/63 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 23/25]
+Complaint: Fever
+Triage: P3 | Vitals: BP 128/75 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 24/25]
+Complaint: Chest Pain
+Triage: P1 | Vitals: BP 122/64 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 25/25]
+Complaint: Abdominal Pain
+Triage: P1 | Vitals: BP 106/66 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[Discharge Summary 1/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 2/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 3/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 4/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 5/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 6/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 7/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 8/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 9/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 10/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 11/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 12/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 13/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 14/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 15/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 16/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 17/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 18/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 19/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 20/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 21/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 22/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 23/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 24/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 25/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+============================================================
+
+PATIENT: Muhammad Syazwan (S1002) - Age: 29, Race: Malay
+--------------------------------------------------
+[ED Note 1/25]
+Complaint: Fever
+Triage: P1 | Vitals: BP 106/64 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 2/25]
+Complaint: Giddiness
+Triage: P1 | Vitals: BP 111/72 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 3/25]
+Complaint: Chest Pain
+Triage: P2 | Vitals: BP 149/60 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 4/25]
+Complaint: Fever
+Triage: P1 | Vitals: BP 108/84 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 5/25]
+Complaint: Fall
+Triage: P3 | Vitals: BP 131/86 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 6/25]
+Complaint: Giddiness
+Triage: P3 | Vitals: BP 148/84 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 7/25]
+Complaint: Chest Pain
+Triage: P1 | Vitals: BP 131/95 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 8/25]
+Complaint: Giddiness
+Triage: P1 | Vitals: BP 145/71 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 9/25]
+Complaint: Shortness of Breath
+Triage: P1 | Vitals: BP 151/60 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 10/25]
+Complaint: Fall
+Triage: P1 | Vitals: BP 134/64 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 11/25]
+Complaint: Fever
+Triage: P1 | Vitals: BP 135/68 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 12/25]
+Complaint: Abdominal Pain
+Triage: P2 | Vitals: BP 160/93 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 13/25]
+Complaint: Fall
+Triage: P2 | Vitals: BP 131/64 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 14/25]
+Complaint: Fall
+Triage: P3 | Vitals: BP 129/94 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 15/25]
+Complaint: Abdominal Pain
+Triage: P2 | Vitals: BP 108/65 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 16/25]
+Complaint: Shortness of Breath
+Triage: P1 | Vitals: BP 155/92 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 17/25]
+Complaint: Giddiness
+Triage: P1 | Vitals: BP 124/71 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 18/25]
+Complaint: Abdominal Pain
+Triage: P3 | Vitals: BP 148/63 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 19/25]
+Complaint: Fall
+Triage: P2 | Vitals: BP 155/91 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 20/25]
+Complaint: Fever
+Triage: P1 | Vitals: BP 102/64 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 21/25]
+Complaint: Abdominal Pain
+Triage: P1 | Vitals: BP 152/83 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 22/25]
+Complaint: Shortness of Breath
+Triage: P2 | Vitals: BP 101/73 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 23/25]
+Complaint: Fall
+Triage: P1 | Vitals: BP 122/82 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 24/25]
+Complaint: Chest Pain
+Triage: P1 | Vitals: BP 107/69 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 25/25]
+Complaint: Abdominal Pain
+Triage: P2 | Vitals: BP 143/94 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[Discharge Summary 1/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 2/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 3/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 4/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 5/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 6/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 7/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 8/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 9/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 10/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 11/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 12/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 13/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 14/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 15/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 16/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 17/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 18/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 19/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 20/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 21/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 22/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 23/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 24/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 25/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+============================================================
+
+PATIENT: Rajendran s/o Muthu (S1003) - Age: 58, Race: Indian
+--------------------------------------------------
+[ED Note 1/25]
+Complaint: Shortness of Breath
+Triage: P1 | Vitals: BP 109/92 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 2/25]
+Complaint: Chest Pain
+Triage: P2 | Vitals: BP 138/64 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 3/25]
+Complaint: Abdominal Pain
+Triage: P1 | Vitals: BP 130/79 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 4/25]
+Complaint: Fever
+Triage: P1 | Vitals: BP 126/68 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 5/25]
+Complaint: Giddiness
+Triage: P2 | Vitals: BP 159/79 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 6/25]
+Complaint: Shortness of Breath
+Triage: P3 | Vitals: BP 146/81 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 7/25]
+Complaint: Giddiness
+Triage: P3 | Vitals: BP 158/72 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 8/25]
+Complaint: Chest Pain
+Triage: P2 | Vitals: BP 158/77 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 9/25]
+Complaint: Fall
+Triage: P1 | Vitals: BP 160/78 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 10/25]
+Complaint: Fever
+Triage: P3 | Vitals: BP 124/93 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 11/25]
+Complaint: Fever
+Triage: P1 | Vitals: BP 129/92 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 12/25]
+Complaint: Chest Pain
+Triage: P1 | Vitals: BP 152/92 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 13/25]
+Complaint: Giddiness
+Triage: P2 | Vitals: BP 157/89 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 14/25]
+Complaint: Fall
+Triage: P1 | Vitals: BP 128/80 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 15/25]
+Complaint: Fever
+Triage: P3 | Vitals: BP 121/78 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 16/25]
+Complaint: Fever
+Triage: P1 | Vitals: BP 142/67 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 17/25]
+Complaint: Giddiness
+Triage: P1 | Vitals: BP 109/78 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 18/25]
+Complaint: Shortness of Breath
+Triage: P3 | Vitals: BP 134/91 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 19/25]
+Complaint: Giddiness
+Triage: P2 | Vitals: BP 126/73 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 20/25]
+Complaint: Chest Pain
+Triage: P3 | Vitals: BP 157/87 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 21/25]
+Complaint: Chest Pain
+Triage: P3 | Vitals: BP 111/93 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 22/25]
+Complaint: Fall
+Triage: P3 | Vitals: BP 132/88 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 23/25]
+Complaint: Abdominal Pain
+Triage: P3 | Vitals: BP 133/73 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 24/25]
+Complaint: Chest Pain
+Triage: P1 | Vitals: BP 149/62 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 25/25]
+Complaint: Chest Pain
+Triage: P3 | Vitals: BP 155/61 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[Discharge Summary 1/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 2/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 3/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 4/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 5/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 6/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 7/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 8/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 9/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 10/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 11/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 12/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 13/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 14/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 15/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 16/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 17/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 18/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 19/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 20/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 21/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 22/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 23/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 24/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 25/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+============================================================
+
+PATIENT: Chloe de Souza (S1004) - Age: 41, Race: Eurasian
+--------------------------------------------------
+[ED Note 1/25]
+Complaint: Chest Pain
+Triage: P1 | Vitals: BP 137/64 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 2/25]
+Complaint: Abdominal Pain
+Triage: P2 | Vitals: BP 156/61 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 3/25]
+Complaint: Shortness of Breath
+Triage: P1 | Vitals: BP 138/83 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 4/25]
+Complaint: Chest Pain
+Triage: P2 | Vitals: BP 143/80 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 5/25]
+Complaint: Giddiness
+Triage: P3 | Vitals: BP 153/76 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 6/25]
+Complaint: Fall
+Triage: P2 | Vitals: BP 122/63 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 7/25]
+Complaint: Shortness of Breath
+Triage: P2 | Vitals: BP 123/94 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 8/25]
+Complaint: Shortness of Breath
+Triage: P3 | Vitals: BP 122/85 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 9/25]
+Complaint: Fall
+Triage: P1 | Vitals: BP 142/95 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 10/25]
+Complaint: Chest Pain
+Triage: P1 | Vitals: BP 103/75 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 11/25]
+Complaint: Fall
+Triage: P3 | Vitals: BP 155/89 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 12/25]
+Complaint: Fall
+Triage: P2 | Vitals: BP 107/87 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 13/25]
+Complaint: Shortness of Breath
+Triage: P1 | Vitals: BP 124/71 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 14/25]
+Complaint: Giddiness
+Triage: P1 | Vitals: BP 154/76 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 15/25]
+Complaint: Chest Pain
+Triage: P3 | Vitals: BP 134/61 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 16/25]
+Complaint: Abdominal Pain
+Triage: P1 | Vitals: BP 101/60 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 17/25]
+Complaint: Fever
+Triage: P1 | Vitals: BP 130/66 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 18/25]
+Complaint: Fall
+Triage: P2 | Vitals: BP 122/73 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 19/25]
+Complaint: Fever
+Triage: P2 | Vitals: BP 139/83 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 20/25]
+Complaint: Shortness of Breath
+Triage: P2 | Vitals: BP 142/63 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 21/25]
+Complaint: Shortness of Breath
+Triage: P1 | Vitals: BP 100/64 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 22/25]
+Complaint: Abdominal Pain
+Triage: P2 | Vitals: BP 158/65 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 23/25]
+Complaint: Fever
+Triage: P1 | Vitals: BP 150/73 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 24/25]
+Complaint: Shortness of Breath
+Triage: P1 | Vitals: BP 121/82 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 25/25]
+Complaint: Abdominal Pain
+Triage: P2 | Vitals: BP 107/87 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[Discharge Summary 1/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 2/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 3/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 4/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 5/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 6/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 7/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 8/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 9/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 10/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 11/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 12/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 13/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 14/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 15/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 16/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 17/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 18/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 19/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 20/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 21/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 22/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 23/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 24/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 25/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+============================================================
+
+PATIENT: Lim Boon Hock (S1005) - Age: 84, Race: Chinese
+--------------------------------------------------
+[ED Note 1/25]
+Complaint: Abdominal Pain
+Triage: P3 | Vitals: BP 124/86 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 2/25]
+Complaint: Fever
+Triage: P3 | Vitals: BP 129/61 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 3/25]
+Complaint: Chest Pain
+Triage: P1 | Vitals: BP 145/88 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 4/25]
+Complaint: Fall
+Triage: P3 | Vitals: BP 145/69 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 5/25]
+Complaint: Abdominal Pain
+Triage: P1 | Vitals: BP 107/80 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 6/25]
+Complaint: Abdominal Pain
+Triage: P3 | Vitals: BP 138/74 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 7/25]
+Complaint: Chest Pain
+Triage: P3 | Vitals: BP 131/82 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 8/25]
+Complaint: Abdominal Pain
+Triage: P3 | Vitals: BP 157/77 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 9/25]
+Complaint: Giddiness
+Triage: P1 | Vitals: BP 156/84 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 10/25]
+Complaint: Giddiness
+Triage: P1 | Vitals: BP 134/60 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 11/25]
+Complaint: Giddiness
+Triage: P2 | Vitals: BP 121/71 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 12/25]
+Complaint: Chest Pain
+Triage: P3 | Vitals: BP 113/60 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 13/25]
+Complaint: Fever
+Triage: P3 | Vitals: BP 159/83 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 14/25]
+Complaint: Shortness of Breath
+Triage: P2 | Vitals: BP 109/80 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 15/25]
+Complaint: Giddiness
+Triage: P2 | Vitals: BP 151/95 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 16/25]
+Complaint: Chest Pain
+Triage: P1 | Vitals: BP 133/75 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 17/25]
+Complaint: Chest Pain
+Triage: P2 | Vitals: BP 124/60 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 18/25]
+Complaint: Shortness of Breath
+Triage: P3 | Vitals: BP 131/79 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 19/25]
+Complaint: Chest Pain
+Triage: P3 | Vitals: BP 104/76 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 20/25]
+Complaint: Fall
+Triage: P1 | Vitals: BP 145/75 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 21/25]
+Complaint: Abdominal Pain
+Triage: P1 | Vitals: BP 147/65 mmHg
+Note: Patient presented with acute symptoms. Discharged with 3 days MC.
+
+[ED Note 22/25]
+Complaint: Shortness of Breath
+Triage: P1 | Vitals: BP 154/72 mmHg
+Note: Patient presented with acute symptoms. Admitted to General Ward.
+
+[ED Note 23/25]
+Complaint: Shortness of Breath
+Triage: P3 | Vitals: BP 111/84 mmHg
+Note: Patient presented with acute symptoms. Referral to Specialist SOC.
+
+[ED Note 24/25]
+Complaint: Chest Pain
+Triage: P2 | Vitals: BP 132/74 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[ED Note 25/25]
+Complaint: Giddiness
+Triage: P1 | Vitals: BP 144/93 mmHg
+Note: Patient presented with acute symptoms. Follow up at Polyclinic.
+
+[Discharge Summary 1/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 2/25]
+Diagnosis: Related to Fever
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 3/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 4/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 5/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 6/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 7/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 8/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 9/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 10/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 11/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 12/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 13/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 14/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 15/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 16/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 17/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 18/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Discharged with 3 days MC
+
+[Discharge Summary 19/25]
+Diagnosis: Related to Giddiness
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 20/25]
+Diagnosis: Related to Chest Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 21/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Referral to Specialist SOC
+
+[Discharge Summary 22/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 23/25]
+Diagnosis: Related to Shortness of Breath
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Admitted to General Ward
+
+[Discharge Summary 24/25]
+Diagnosis: Related to Abdominal Pain
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+[Discharge Summary 25/25]
+Diagnosis: Related to Fall
+Hospital Course: Managed conservatively with IV fluids and monitoring. Condition stabilized.
+Follow-up: Follow up at Polyclinic
+
+============================================================
+
