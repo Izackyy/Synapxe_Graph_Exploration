@@ -16,7 +16,8 @@ patients_data = [
 ]
 
 # Clinical Content
-rdm_triggers = ["Crush Injury", "Statin-Induced Myopathy", "Extreme Physical Exertion", "Prolonged Immobilization"]
+shared_trigger = "Statin-Induced Myopathy"
+other_triggers = ["Crush Injury", "Extreme Physical Exertion", "Prolonged Immobilization"]
 rdm_complications = ["Acute Kidney Injury", "Hyperkalemia", "Compartment Syndrome", "Metabolic Acidosis"]
 rdm_meds = ["0.9% Normal Saline (IV)", "Sodium Bicarbonate", "Mannitol", "Calcium Gluconate"]
 
@@ -33,7 +34,7 @@ for p in patients_data:
     pid = p['id']
     add_node(pid, "Patient", {"name": p['name'], "age": p['age'], "gender": p['gender'], "has_rdm": p['has_rdm']})
     
-    # Add Demographic Nodes & Edges
+    # Demographics
     for label, val in [("Race", p['race']), ("Religion", p['religion']), ("AgeGroup", f"{(p['age'] // 10) * 10}s")]:
         eid = f"{label}_{val.replace(' ', '_')}"
         if eid not in unique_entities:
@@ -41,26 +42,30 @@ for p in patients_data:
             unique_entities[eid] = True
         add_edge(pid, eid, f"HAS_{label.upper()}")
 
-    # Add Clinical Connections for RDM
+    # Clinical RDM logic
     if p['has_rdm']:
-        idx = patients_data.index(p) % 4
-        trigger, comp, med = rdm_triggers[idx], rdm_complications[idx], rdm_meds[idx]
+        # S1001 and S1003 now share the same trigger
+        if pid in ["S1001", "S1003"]:
+            trigger = shared_trigger
+        else:
+            trigger = random.choice(other_triggers)
+            
+        comp = random.choice(rdm_complications)
+        med = random.choice(rdm_meds)
         
-        # Trigger
+        # Nodes & Edges
         tid = f"Trigger_{trigger.replace(' ', '_')}"
         if tid not in unique_entities:
             add_node(tid, "Trigger", {"name": trigger})
             unique_entities[tid] = True
-        add_edge(pid, tid, "TRIGGERED_BY", {"peak_ck_level": random.randint(5000, 50000)})
+        add_edge(pid, tid, "TRIGGERED_BY", {"peak_ck_level": random.randint(15000, 45000)})
         
-        # Complication
         coid = f"Comp_{comp.replace(' ', '_')}"
         if coid not in unique_entities:
             add_node(coid, "Complication", {"name": comp})
             unique_entities[coid] = True
         add_edge(pid, coid, "DEVELOPED")
         
-        # Treatment
         mid = f"Med_{med.replace(' ', '_')}"
         if mid not in unique_entities:
             add_node(mid, "Treatment", {"name": med})
@@ -68,5 +73,5 @@ for p in patients_data:
         add_edge(pid, mid, "TREATED_WITH")
 
 # 3. Export
-pd.DataFrame(nodes).to_csv('nodes_rdm_demographics.csv', index=False)
-pd.DataFrame(edges).to_csv('edges_rdm_demographics.csv', index=False)
+pd.DataFrame(nodes).to_csv('nodes_shared_med_rdm.csv', index=False)
+pd.DataFrame(edges).to_csv('edges_shared_med_rdm.csv', index=False)
