@@ -1,0 +1,43 @@
+id,label,name,age,gender
+Condition_RDM,Condition,Rhabdomyolysis,,
+S1001,Patient,Tan Wei Ling,72.0,Female
+Race_Chinese,Race,Chinese,,
+Religion_Buddhist,Religion,Buddhist,,
+AgeGroup_70s,AgeGroup,70s,,
+Cond_Hyperlipidemia,Condition,Hyperlipidemia,,
+Cond_Chronic_Kidney_Disease,Condition,Chronic Kidney Disease,,
+Cond_Atrial_Fibrillation,Condition,Atrial Fibrillation,,
+Drug_Warfarin,Medication,Warfarin,,
+Drug_Aspirin,Medication,Aspirin,,
+Drug_Hydrochlorothiazide,Medication,Hydrochlorothiazide,,
+Drug_Atorvastatin,Medication,Atorvastatin,,
+Trigger_Statin-Induced_Myopathy,Trigger,Statin-Induced Myopathy,,
+S1002,Patient,Muhammad Syazwan,29.0,Male
+Race_Malay,Race,Malay,,
+Religion_Muslim,Religion,Muslim,,
+AgeGroup_20s,AgeGroup,20s,,
+Drug_Metformin,Medication,Metformin,,
+Drug_Amlodipine,Medication,Amlodipine,,
+Drug_Lisinopril,Medication,Lisinopril,,
+S1003,Patient,Rajendran s/o Muthu,58.0,Male
+Race_Indian,Race,Indian,,
+Religion_Hindu,Religion,Hindu,,
+AgeGroup_50s,AgeGroup,50s,,
+Cond_Hypertension,Condition,Hypertension,,
+S1004,Patient,Chloe de Souza,41.0,Female
+Race_Eurasian,Race,Eurasian,,
+Religion_Christian,Religion,Christian,,
+AgeGroup_40s,AgeGroup,40s,,
+S1005,Patient,Lim Boon Hock,84.0,Male
+Religion_Taoist,Religion,Taoist,,
+AgeGroup_80s,AgeGroup,80s,,
+Cond_Obesity,Condition,Obesity,,
+S1006,Patient,Fatimah Binte Ahmad,65.0,Female
+AgeGroup_60s,AgeGroup,60s,,
+Cond_Type_2_Diabetes,Condition,Type 2 Diabetes,,
+Trigger_Extreme_Physical_Exertion,Trigger,Extreme Physical Exertion,,
+S1007,Patient,David Tan,35.0,Male
+AgeGroup_30s,AgeGroup,30s,,
+S1008,Patient,Priya Devi,52.0,Female
+S1009,Patient,Jeremy Wong,47.0,Male
+S1010,Patient,Siti Aminah,78.0,Female

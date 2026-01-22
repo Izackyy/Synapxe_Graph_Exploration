@@ -1,0 +1,99 @@
+source,target,type,peak_ck_from_er,discharge_ck,er_notes_count,ds_notes_count,source_name,target_name
+S1001,Race_Chinese,HAS_RACE,,,,,Tan Wei Ling,Chinese
+S1001,Religion_Buddhist,HAS_RELIGION,,,,,Tan Wei Ling,Buddhist
+S1001,AgeGroup_70s,HAS_AGEGROUP,,,,,Tan Wei Ling,70s
+S1001,Cond_Hyperlipidemia,HAS_HISTORY,,,,,Tan Wei Ling,Hyperlipidemia
+S1001,Cond_Chronic_Kidney_Disease,HAS_HISTORY,,,,,Tan Wei Ling,Chronic Kidney Disease
+S1001,Cond_Atrial_Fibrillation,HAS_HISTORY,,,,,Tan Wei Ling,Atrial Fibrillation
+S1001,Drug_Warfarin,PRESCRIBED,,,,,Tan Wei Ling,Warfarin
+S1001,Drug_Aspirin,PRESCRIBED,,,,,Tan Wei Ling,Aspirin
+S1001,Drug_Hydrochlorothiazide,PRESCRIBED,,,,,Tan Wei Ling,Hydrochlorothiazide
+S1001,Drug_Atorvastatin,PRESCRIBED,,,,,Tan Wei Ling,Atorvastatin
+Trigger_Statin-Induced_Myopathy,Condition_RDM,CAUSES,,,,,Statin-Induced Myopathy,Rhabdomyolysis
+S1001,Condition_RDM,DIAGNOSED_WITH,45228.0,703.0,10.0,10.0,Tan Wei Ling,Rhabdomyolysis
+S1001,Trigger_Statin-Induced_Myopathy,TRIGGERED_BY,,,,,Tan Wei Ling,Statin-Induced Myopathy
+S1002,Race_Malay,HAS_RACE,,,,,Muhammad Syazwan,Malay
+S1002,Religion_Muslim,HAS_RELIGION,,,,,Muhammad Syazwan,Muslim
+S1002,AgeGroup_20s,HAS_AGEGROUP,,,,,Muhammad Syazwan,20s
+S1002,Cond_Chronic_Kidney_Disease,HAS_HISTORY,,,,,Muhammad Syazwan,Chronic Kidney Disease
+S1002,Cond_Hyperlipidemia,HAS_HISTORY,,,,,Muhammad Syazwan,Hyperlipidemia
+S1002,Drug_Metformin,PRESCRIBED,,,,,Muhammad Syazwan,Metformin
+S1002,Drug_Amlodipine,PRESCRIBED,,,,,Muhammad Syazwan,Amlodipine
+S1002,Drug_Atorvastatin,PRESCRIBED,,,,,Muhammad Syazwan,Atorvastatin
+S1002,Drug_Lisinopril,PRESCRIBED,,,,,Muhammad Syazwan,Lisinopril
+S1003,Race_Indian,HAS_RACE,,,,,Rajendran s/o Muthu,Indian
+S1003,Religion_Hindu,HAS_RELIGION,,,,,Rajendran s/o Muthu,Hindu
+S1003,AgeGroup_50s,HAS_AGEGROUP,,,,,Rajendran s/o Muthu,50s
+S1003,Cond_Hypertension,HAS_HISTORY,,,,,Rajendran s/o Muthu,Hypertension
+S1003,Cond_Atrial_Fibrillation,HAS_HISTORY,,,,,Rajendran s/o Muthu,Atrial Fibrillation
+S1003,Drug_Metformin,PRESCRIBED,,,,,Rajendran s/o Muthu,Metformin
+S1003,Drug_Aspirin,PRESCRIBED,,,,,Rajendran s/o Muthu,Aspirin
+S1003,Drug_Lisinopril,PRESCRIBED,,,,,Rajendran s/o Muthu,Lisinopril
+S1003,Drug_Hydrochlorothiazide,PRESCRIBED,,,,,Rajendran s/o Muthu,Hydrochlorothiazide
+Trigger_Statin-Induced_Myopathy,Condition_RDM,CAUSES,,,,,Statin-Induced Myopathy,Rhabdomyolysis
+S1003,Condition_RDM,DIAGNOSED_WITH,17382.0,433.0,10.0,10.0,Rajendran s/o Muthu,Rhabdomyolysis
+S1003,Trigger_Statin-Induced_Myopathy,TRIGGERED_BY,,,,,Rajendran s/o Muthu,Statin-Induced Myopathy
+S1004,Race_Eurasian,HAS_RACE,,,,,Chloe de Souza,Eurasian
+S1004,Religion_Christian,HAS_RELIGION,,,,,Chloe de Souza,Christian
+S1004,AgeGroup_40s,HAS_AGEGROUP,,,,,Chloe de Souza,40s
+S1004,Cond_Hypertension,HAS_HISTORY,,,,,Chloe de Souza,Hypertension
+S1004,Cond_Hyperlipidemia,HAS_HISTORY,,,,,Chloe de Souza,Hyperlipidemia
+S1004,Drug_Lisinopril,PRESCRIBED,,,,,Chloe de Souza,Lisinopril
+S1004,Drug_Amlodipine,PRESCRIBED,,,,,Chloe de Souza,Amlodipine
+S1004,Drug_Aspirin,PRESCRIBED,,,,,Chloe de Souza,Aspirin
+S1005,Race_Chinese,HAS_RACE,,,,,Lim Boon Hock,Chinese
+S1005,Religion_Taoist,HAS_RELIGION,,,,,Lim Boon Hock,Taoist
+S1005,AgeGroup_80s,HAS_AGEGROUP,,,,,Lim Boon Hock,80s
+S1005,Cond_Hyperlipidemia,HAS_HISTORY,,,,,Lim Boon Hock,Hyperlipidemia
+S1005,Cond_Obesity,HAS_HISTORY,,,,,Lim Boon Hock,Obesity
+S1005,Cond_Chronic_Kidney_Disease,HAS_HISTORY,,,,,Lim Boon Hock,Chronic Kidney Disease
+S1005,Drug_Aspirin,PRESCRIBED,,,,,Lim Boon Hock,Aspirin
+S1005,Drug_Metformin,PRESCRIBED,,,,,Lim Boon Hock,Metformin
+S1005,Drug_Atorvastatin,PRESCRIBED,,,,,Lim Boon Hock,Atorvastatin
+S1006,Race_Malay,HAS_RACE,,,,,Fatimah Binte Ahmad,Malay
+S1006,Religion_Muslim,HAS_RELIGION,,,,,Fatimah Binte Ahmad,Muslim
+S1006,AgeGroup_60s,HAS_AGEGROUP,,,,,Fatimah Binte Ahmad,60s
+S1006,Cond_Obesity,HAS_HISTORY,,,,,Fatimah Binte Ahmad,Obesity
+S1006,Cond_Type_2_Diabetes,HAS_HISTORY,,,,,Fatimah Binte Ahmad,Type 2 Diabetes
+S1006,Drug_Atorvastatin,PRESCRIBED,,,,,Fatimah Binte Ahmad,Atorvastatin
+S1006,Drug_Warfarin,PRESCRIBED,,,,,Fatimah Binte Ahmad,Warfarin
+S1006,Drug_Metformin,PRESCRIBED,,,,,Fatimah Binte Ahmad,Metformin
+Trigger_Extreme_Physical_Exertion,Condition_RDM,CAUSES,,,,,Extreme Physical Exertion,Rhabdomyolysis
+S1006,Condition_RDM,DIAGNOSED_WITH,33627.0,645.0,10.0,10.0,Fatimah Binte Ahmad,Rhabdomyolysis
+S1006,Trigger_Extreme_Physical_Exertion,TRIGGERED_BY,,,,,Fatimah Binte Ahmad,Extreme Physical Exertion
+S1007,Race_Chinese,HAS_RACE,,,,,David Tan,Chinese
+S1007,Religion_Christian,HAS_RELIGION,,,,,David Tan,Christian
+S1007,AgeGroup_30s,HAS_AGEGROUP,,,,,David Tan,30s
+S1007,Cond_Hyperlipidemia,HAS_HISTORY,,,,,David Tan,Hyperlipidemia
+S1007,Drug_Aspirin,PRESCRIBED,,,,,David Tan,Aspirin
+S1007,Drug_Warfarin,PRESCRIBED,,,,,David Tan,Warfarin
+S1007,Drug_Amlodipine,PRESCRIBED,,,,,David Tan,Amlodipine
+S1008,Race_Indian,HAS_RACE,,,,,Priya Devi,Indian
+S1008,Religion_Hindu,HAS_RELIGION,,,,,Priya Devi,Hindu
+S1008,AgeGroup_50s,HAS_AGEGROUP,,,,,Priya Devi,50s
+S1008,Cond_Chronic_Kidney_Disease,HAS_HISTORY,,,,,Priya Devi,Chronic Kidney Disease
+S1008,Cond_Hyperlipidemia,HAS_HISTORY,,,,,Priya Devi,Hyperlipidemia
+S1008,Drug_Lisinopril,PRESCRIBED,,,,,Priya Devi,Lisinopril
+S1008,Drug_Hydrochlorothiazide,PRESCRIBED,,,,,Priya Devi,Hydrochlorothiazide
+S1008,Drug_Amlodipine,PRESCRIBED,,,,,Priya Devi,Amlodipine
+S1008,Drug_Atorvastatin,PRESCRIBED,,,,,Priya Devi,Atorvastatin
+Trigger_Extreme_Physical_Exertion,Condition_RDM,CAUSES,,,,,Extreme Physical Exertion,Rhabdomyolysis
+S1008,Condition_RDM,DIAGNOSED_WITH,49340.0,700.0,10.0,10.0,Priya Devi,Rhabdomyolysis
+S1008,Trigger_Extreme_Physical_Exertion,TRIGGERED_BY,,,,,Priya Devi,Extreme Physical Exertion
+S1009,Race_Chinese,HAS_RACE,,,,,Jeremy Wong,Chinese
+S1009,Religion_Buddhist,HAS_RELIGION,,,,,Jeremy Wong,Buddhist
+S1009,AgeGroup_40s,HAS_AGEGROUP,,,,,Jeremy Wong,40s
+S1009,Cond_Hyperlipidemia,HAS_HISTORY,,,,,Jeremy Wong,Hyperlipidemia
+S1009,Cond_Obesity,HAS_HISTORY,,,,,Jeremy Wong,Obesity
+S1009,Cond_Chronic_Kidney_Disease,HAS_HISTORY,,,,,Jeremy Wong,Chronic Kidney Disease
+S1009,Drug_Warfarin,PRESCRIBED,,,,,Jeremy Wong,Warfarin
+S1009,Drug_Atorvastatin,PRESCRIBED,,,,,Jeremy Wong,Atorvastatin
+S1010,Race_Malay,HAS_RACE,,,,,Siti Aminah,Malay
+S1010,Religion_Muslim,HAS_RELIGION,,,,,Siti Aminah,Muslim
+S1010,AgeGroup_70s,HAS_AGEGROUP,,,,,Siti Aminah,70s
+S1010,Cond_Hypertension,HAS_HISTORY,,,,,Siti Aminah,Hypertension
+S1010,Cond_Obesity,HAS_HISTORY,,,,,Siti Aminah,Obesity
+S1010,Cond_Hyperlipidemia,HAS_HISTORY,,,,,Siti Aminah,Hyperlipidemia
+S1010,Drug_Atorvastatin,PRESCRIBED,,,,,Siti Aminah,Atorvastatin
+S1010,Drug_Lisinopril,PRESCRIBED,,,,,Siti Aminah,Lisinopril
+S1010,Drug_Aspirin,PRESCRIBED,,,,,Siti Aminah,Aspirin
