@@ -1,0 +1,99 @@
+source,target,type,peak_ck_from_er,discharge_ck,er_notes_count,ds_notes_count,start_date,end_date,duration_days,occurrence_date,source_name,age,gender,target_name
+S1001,Race_Chinese,HAS_RACE,,,,,,,,,Tan Wei Ling,72.0,Female,Chinese
+S1001,Religion_Buddhist,HAS_RELIGION,,,,,,,,,Tan Wei Ling,72.0,Female,Buddhist
+S1001,AgeGroup_70s,HAS_AGEGROUP,,,,,,,,,Tan Wei Ling,72.0,Female,70s
+S1001,Cond_Hyperlipidemia,HAS_HISTORY,,,,,,,,2021-11-07,Tan Wei Ling,72.0,Female,Hyperlipidemia
+S1001,Cond_Chronic_Kidney_Disease,HAS_HISTORY,,,,,,,,2020-12-14,Tan Wei Ling,72.0,Female,Chronic Kidney Disease
+S1001,Cond_Atrial_Fibrillation,HAS_HISTORY,,,,,,,,2021-10-14,Tan Wei Ling,72.0,Female,Atrial Fibrillation
+S1001,Drug_Warfarin,PRESCRIBED,,,,,2022-04-04,2023-02-03,305,2022-04-04,Tan Wei Ling,72.0,Female,Warfarin
+S1001,Drug_Aspirin,PRESCRIBED,,,,,2022-05-05,2023-01-05,245,2022-05-05,Tan Wei Ling,72.0,Female,Aspirin
+S1001,Drug_Hydrochlorothiazide,PRESCRIBED,,,,,2022-03-31,2022-08-19,141,2022-03-31,Tan Wei Ling,72.0,Female,Hydrochlorothiazide
+S1001,Drug_Atorvastatin,PRESCRIBED,,,,,2022-04-23,2022-09-29,159,2022-04-23,Tan Wei Ling,72.0,Female,Atorvastatin
+Trigger_Statin-Induced_Myopathy,Condition_RDM,CAUSES,,,,,,,,,Statin-Induced Myopathy,,,Rhabdomyolysis
+S1001,Condition_RDM,DIAGNOSED_WITH,45228.0,703.0,10.0,10.0,2022-05-18,2022-05-27,9,2022-05-18,Tan Wei Ling,72.0,Female,Rhabdomyolysis
+S1001,Trigger_Statin-Induced_Myopathy,TRIGGERED_BY,,,,,,,,2022-05-17,Tan Wei Ling,72.0,Female,Statin-Induced Myopathy
+S1002,Race_Malay,HAS_RACE,,,,,,,,,Muhammad Syazwan,29.0,Male,Malay
+S1002,Religion_Muslim,HAS_RELIGION,,,,,,,,,Muhammad Syazwan,29.0,Male,Muslim
+S1002,AgeGroup_20s,HAS_AGEGROUP,,,,,,,,,Muhammad Syazwan,29.0,Male,20s
+S1002,Cond_Chronic_Kidney_Disease,HAS_HISTORY,,,,,,,,2018-01-27,Muhammad Syazwan,29.0,Male,Chronic Kidney Disease
+S1002,Cond_Hyperlipidemia,HAS_HISTORY,,,,,,,,2017-05-25,Muhammad Syazwan,29.0,Male,Hyperlipidemia
+S1002,Drug_Metformin,PRESCRIBED,,,,,2020-01-17,2020-02-26,40,2020-01-17,Muhammad Syazwan,29.0,Male,Metformin
+S1002,Drug_Amlodipine,PRESCRIBED,,,,,2019-12-25,2020-02-26,63,2019-12-25,Muhammad Syazwan,29.0,Male,Amlodipine
+S1002,Drug_Atorvastatin,PRESCRIBED,,,,,2019-12-22,2020-04-17,117,2019-12-22,Muhammad Syazwan,29.0,Male,Atorvastatin
+S1002,Drug_Lisinopril,PRESCRIBED,,,,,2020-01-07,2020-07-31,206,2020-01-07,Muhammad Syazwan,29.0,Male,Lisinopril
+S1003,Race_Indian,HAS_RACE,,,,,,,,,Rajendran s/o Muthu,58.0,Male,Indian
+S1003,Religion_Hindu,HAS_RELIGION,,,,,,,,,Rajendran s/o Muthu,58.0,Male,Hindu
+S1003,AgeGroup_50s,HAS_AGEGROUP,,,,,,,,,Rajendran s/o Muthu,58.0,Male,50s
+S1003,Cond_Hypertension,HAS_HISTORY,,,,,,,,2024-11-07,Rajendran s/o Muthu,58.0,Male,Hypertension
+S1003,Cond_Atrial_Fibrillation,HAS_HISTORY,,,,,,,,2024-04-20,Rajendran s/o Muthu,58.0,Male,Atrial Fibrillation
+S1003,Drug_Metformin,PRESCRIBED,,,,,2025-07-02,2026-06-26,359,2025-07-02,Rajendran s/o Muthu,58.0,Male,Metformin
+S1003,Drug_Aspirin,PRESCRIBED,,,,,2025-07-15,2026-02-16,216,2025-07-15,Rajendran s/o Muthu,58.0,Male,Aspirin
+S1003,Drug_Lisinopril,PRESCRIBED,,,,,2025-08-20,2026-03-22,214,2025-08-20,Rajendran s/o Muthu,58.0,Male,Lisinopril
+S1003,Drug_Hydrochlorothiazide,PRESCRIBED,,,,,2025-08-17,2026-02-16,183,2025-08-17,Rajendran s/o Muthu,58.0,Male,Hydrochlorothiazide
+Trigger_Statin-Induced_Myopathy,Condition_RDM,CAUSES,,,,,,,,,Statin-Induced Myopathy,,,Rhabdomyolysis
+S1003,Condition_RDM,DIAGNOSED_WITH,17382.0,433.0,10.0,10.0,2025-08-26,2025-08-30,4,2025-08-26,Rajendran s/o Muthu,58.0,Male,Rhabdomyolysis
+S1003,Trigger_Statin-Induced_Myopathy,TRIGGERED_BY,,,,,,,,2025-08-24,Rajendran s/o Muthu,58.0,Male,Statin-Induced Myopathy
+S1004,Race_Eurasian,HAS_RACE,,,,,,,,,Chloe de Souza,41.0,Female,Eurasian
+S1004,Religion_Christian,HAS_RELIGION,,,,,,,,,Chloe de Souza,41.0,Female,Christian
+S1004,AgeGroup_40s,HAS_AGEGROUP,,,,,,,,,Chloe de Souza,41.0,Female,40s
+S1004,Cond_Hypertension,HAS_HISTORY,,,,,,,,2024-05-15,Chloe de Souza,41.0,Female,Hypertension
+S1004,Cond_Hyperlipidemia,HAS_HISTORY,,,,,,,,2023-02-08,Chloe de Souza,41.0,Female,Hyperlipidemia
+S1004,Drug_Lisinopril,PRESCRIBED,,,,,2025-07-27,2026-06-11,319,2025-07-27,Chloe de Souza,41.0,Female,Lisinopril
+S1004,Drug_Amlodipine,PRESCRIBED,,,,,2025-06-01,2025-08-14,74,2025-06-01,Chloe de Souza,41.0,Female,Amlodipine
+S1004,Drug_Aspirin,PRESCRIBED,,,,,2025-07-11,2025-12-15,157,2025-07-11,Chloe de Souza,41.0,Female,Aspirin
+S1005,Race_Chinese,HAS_RACE,,,,,,,,,Lim Boon Hock,84.0,Male,Chinese
+S1005,Religion_Taoist,HAS_RELIGION,,,,,,,,,Lim Boon Hock,84.0,Male,Taoist
+S1005,AgeGroup_80s,HAS_AGEGROUP,,,,,,,,,Lim Boon Hock,84.0,Male,80s
+S1005,Cond_Hyperlipidemia,HAS_HISTORY,,,,,,,,2016-09-01,Lim Boon Hock,84.0,Male,Hyperlipidemia
+S1005,Cond_Obesity,HAS_HISTORY,,,,,,,,2017-08-22,Lim Boon Hock,84.0,Male,Obesity
+S1005,Cond_Chronic_Kidney_Disease,HAS_HISTORY,,,,,,,,2017-10-24,Lim Boon Hock,84.0,Male,Chronic Kidney Disease
+S1005,Drug_Aspirin,PRESCRIBED,,,,,2018-12-31,2019-03-05,64,2018-12-31,Lim Boon Hock,84.0,Male,Aspirin
+S1005,Drug_Metformin,PRESCRIBED,,,,,2018-11-26,2019-06-19,205,2018-11-26,Lim Boon Hock,84.0,Male,Metformin
+S1005,Drug_Atorvastatin,PRESCRIBED,,,,,2019-01-14,2019-11-30,320,2019-01-14,Lim Boon Hock,84.0,Male,Atorvastatin
+S1006,Race_Malay,HAS_RACE,,,,,,,,,Fatimah Binte Ahmad,65.0,Female,Malay
+S1006,Religion_Muslim,HAS_RELIGION,,,,,,,,,Fatimah Binte Ahmad,65.0,Female,Muslim
+S1006,AgeGroup_60s,HAS_AGEGROUP,,,,,,,,,Fatimah Binte Ahmad,65.0,Female,60s
+S1006,Cond_Obesity,HAS_HISTORY,,,,,,,,2018-10-12,Fatimah Binte Ahmad,65.0,Female,Obesity
+S1006,Cond_Type_2_Diabetes,HAS_HISTORY,,,,,,,,2019-06-18,Fatimah Binte Ahmad,65.0,Female,Type 2 Diabetes
+S1006,Drug_Atorvastatin,PRESCRIBED,,,,,2021-05-12,2021-12-23,225,2021-05-12,Fatimah Binte Ahmad,65.0,Female,Atorvastatin
+S1006,Drug_Warfarin,PRESCRIBED,,,,,2021-04-11,2022-01-10,274,2021-04-11,Fatimah Binte Ahmad,65.0,Female,Warfarin
+S1006,Drug_Metformin,PRESCRIBED,,,,,2021-04-10,2021-12-11,245,2021-04-10,Fatimah Binte Ahmad,65.0,Female,Metformin
+Trigger_Extreme_Physical_Exertion,Condition_RDM,CAUSES,,,,,,,,,Extreme Physical Exertion,,,Rhabdomyolysis
+S1006,Condition_RDM,DIAGNOSED_WITH,33627.0,645.0,10.0,10.0,2021-05-24,2021-05-27,3,2021-05-24,Fatimah Binte Ahmad,65.0,Female,Rhabdomyolysis
+S1006,Trigger_Extreme_Physical_Exertion,TRIGGERED_BY,,,,,,,,2021-05-23,Fatimah Binte Ahmad,65.0,Female,Extreme Physical Exertion
+S1007,Race_Chinese,HAS_RACE,,,,,,,,,David Tan,35.0,Male,Chinese
+S1007,Religion_Christian,HAS_RELIGION,,,,,,,,,David Tan,35.0,Male,Christian
+S1007,AgeGroup_30s,HAS_AGEGROUP,,,,,,,,,David Tan,35.0,Male,30s
+S1007,Cond_Hyperlipidemia,HAS_HISTORY,,,,,,,,2019-12-13,David Tan,35.0,Male,Hyperlipidemia
+S1007,Drug_Aspirin,PRESCRIBED,,,,,2022-04-08,2022-06-16,69,2022-04-08,David Tan,35.0,Male,Aspirin
+S1007,Drug_Warfarin,PRESCRIBED,,,,,2022-03-06,2022-10-11,219,2022-03-06,David Tan,35.0,Male,Warfarin
+S1007,Drug_Amlodipine,PRESCRIBED,,,,,2022-03-05,2023-02-10,342,2022-03-05,David Tan,35.0,Male,Amlodipine
+S1008,Race_Indian,HAS_RACE,,,,,,,,,Priya Devi,52.0,Female,Indian
+S1008,Religion_Hindu,HAS_RELIGION,,,,,,,,,Priya Devi,52.0,Female,Hindu
+S1008,AgeGroup_50s,HAS_AGEGROUP,,,,,,,,,Priya Devi,52.0,Female,50s
+S1008,Cond_Chronic_Kidney_Disease,HAS_HISTORY,,,,,,,,2021-09-15,Priya Devi,52.0,Female,Chronic Kidney Disease
+S1008,Cond_Hyperlipidemia,HAS_HISTORY,,,,,,,,2022-06-17,Priya Devi,52.0,Female,Hyperlipidemia
+S1008,Drug_Lisinopril,PRESCRIBED,,,,,2023-10-08,2024-09-18,346,2023-10-08,Priya Devi,52.0,Female,Lisinopril
+S1008,Drug_Hydrochlorothiazide,PRESCRIBED,,,,,2023-10-24,2024-01-21,89,2023-10-24,Priya Devi,52.0,Female,Hydrochlorothiazide
+S1008,Drug_Amlodipine,PRESCRIBED,,,,,2023-10-23,2024-03-02,131,2023-10-23,Priya Devi,52.0,Female,Amlodipine
+S1008,Drug_Atorvastatin,PRESCRIBED,,,,,2023-11-04,2024-07-20,259,2023-11-04,Priya Devi,52.0,Female,Atorvastatin
+Trigger_Extreme_Physical_Exertion,Condition_RDM,CAUSES,,,,,,,,,Extreme Physical Exertion,,,Rhabdomyolysis
+S1008,Condition_RDM,DIAGNOSED_WITH,49340.0,700.0,10.0,10.0,2023-11-19,2023-11-29,10,2023-11-19,Priya Devi,52.0,Female,Rhabdomyolysis
+S1008,Trigger_Extreme_Physical_Exertion,TRIGGERED_BY,,,,,,,,2023-11-18,Priya Devi,52.0,Female,Extreme Physical Exertion
+S1009,Race_Chinese,HAS_RACE,,,,,,,,,Jeremy Wong,47.0,Male,Chinese
+S1009,Religion_Buddhist,HAS_RELIGION,,,,,,,,,Jeremy Wong,47.0,Male,Buddhist
+S1009,AgeGroup_40s,HAS_AGEGROUP,,,,,,,,,Jeremy Wong,47.0,Male,40s
+S1009,Cond_Hyperlipidemia,HAS_HISTORY,,,,,,,,2018-09-17,Jeremy Wong,47.0,Male,Hyperlipidemia
+S1009,Cond_Obesity,HAS_HISTORY,,,,,,,,2018-06-01,Jeremy Wong,47.0,Male,Obesity
+S1009,Cond_Chronic_Kidney_Disease,HAS_HISTORY,,,,,,,,2018-11-20,Jeremy Wong,47.0,Male,Chronic Kidney Disease
+S1009,Drug_Warfarin,PRESCRIBED,,,,,2020-12-17,2021-02-12,57,2020-12-17,Jeremy Wong,47.0,Male,Warfarin
+S1009,Drug_Atorvastatin,PRESCRIBED,,,,,2020-12-19,2021-08-18,242,2020-12-19,Jeremy Wong,47.0,Male,Atorvastatin
+S1010,Race_Malay,HAS_RACE,,,,,,,,,Siti Aminah,78.0,Female,Malay
+S1010,Religion_Muslim,HAS_RELIGION,,,,,,,,,Siti Aminah,78.0,Female,Muslim
+S1010,AgeGroup_70s,HAS_AGEGROUP,,,,,,,,,Siti Aminah,78.0,Female,70s
+S1010,Cond_Hypertension,HAS_HISTORY,,,,,,,,2019-04-15,Siti Aminah,78.0,Female,Hypertension
+S1010,Cond_Obesity,HAS_HISTORY,,,,,,,,2020-04-06,Siti Aminah,78.0,Female,Obesity
+S1010,Cond_Hyperlipidemia,HAS_HISTORY,,,,,,,,2020-02-11,Siti Aminah,78.0,Female,Hyperlipidemia
+S1010,Drug_Atorvastatin,PRESCRIBED,,,,,2021-05-23,2021-11-18,179,2021-05-23,Siti Aminah,78.0,Female,Atorvastatin
+S1010,Drug_Lisinopril,PRESCRIBED,,,,,2021-06-08,2021-08-10,63,2021-06-08,Siti Aminah,78.0,Female,Lisinopril
+S1010,Drug_Aspirin,PRESCRIBED,,,,,2021-06-11,2021-09-05,86,2021-06-11,Siti Aminah,78.0,Female,Aspirin
