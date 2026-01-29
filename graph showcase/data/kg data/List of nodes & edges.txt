@@ -1,0 +1,15 @@
+Nodes
+Patient [id, name, age, gender, ethnicity, religion, clinical_summary]
+Medication [id, name, class]
+Condition [id, name, class]
+Trigger [id, name]
+Ethnicity [id, name]
+Religion [id, name]
+
+Edges
+Patient — IS_DIAGNOSED_WITH —> Condition [occurrence_date] 
+Patient — IS_PRESCRIBED —> Medication [start_date, duration_days]
+Patient — EXPERIENCED_TRIGGER —> Trigger [occurrence_date] 
+Trigger — CAUSES —> Condition [No attributes] 
+Patient — HAS_ETHNICITY —> Ethnicity [No attributes] 
+Patient — HAS_RELIGION —> Religion [No attributes]

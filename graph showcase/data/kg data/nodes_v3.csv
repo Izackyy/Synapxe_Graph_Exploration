@@ -1,0 +1,84 @@
+id,name,label,class,age,gender,ethnicity,religion,clinical_summary
+ETH_Chinese,Chinese,Ethnicity,,,,,,
+ETH_Malay,Malay,Ethnicity,,,,,,
+ETH_Indian,Indian,Ethnicity,,,,,,
+ETH_Eurasian,Eurasian,Ethnicity,,,,,,
+REL_Buddhist,Buddhist,Religion,,,,,,
+REL_Muslim,Muslim,Religion,,,,,,
+REL_Hindu,Hindu,Religion,,,,,,
+REL_Christian,Christian,Religion,,,,,,
+REL_None,None,Religion,,,,,,
+M1,Atorvastatin,Medication,Statin,,,,,
+M2,Rosuvastatin,Medication,Statin,,,,,
+M3,Simvastatin,Medication,Statin,,,,,
+M4,Lisinopril,Medication,ACE_Inhibitor,,,,,
+M5,Ramipril,Medication,ACE_Inhibitor,,,,,
+M6,Enalapril,Medication,ACE_Inhibitor,,,,,
+M7,Metformin,Medication,Antidiabetic,,,,,
+M8,Glipizide,Medication,Antidiabetic,,,,,
+M9,Amlodipine,Medication,CCB,,,,,
+M10,Ezetimibe,Medication,Lipid_Lowering,,,,,
+M11,Losartan,Medication,ARB,,,,,
+M12,Hydrochlorothiazide,Medication,Diuretic,,,,,
+C1,Rhabdomyolysis,Condition,Muscle_Injury,,,,,
+C2,Hypertension,Condition,Cardiovascular,,,,,
+C3,Type 2 Diabetes,Condition,Endocrine,,,,,
+C4,Chronic Kidney Disease,Condition,Renal,,,,,
+C5,Hyperlipidemia,Condition,Metabolic,,,,,
+C6,Sepsis,Condition,Infection,,,,,
+T1,Statin-Induced Myopathy,Trigger,,,,,,
+T2,Extreme Physical Exertion,Trigger,,,,,,
+T3,Drug-Drug Interaction,Trigger,,,,,,
+T4,Dehydration,Trigger,,,,,,
+P01,Tan Wei Ling,Patient,,51.0,Female,Chinese,Buddhist,Noted possible drug-induced muscle injury; reports soreness.
+P02,Rajendran s/o Muthu,Patient,,48.0,Male,Malay,Muslim,Noted possible drug-induced muscle injury; reports soreness.
+P03,Priya Devi,Patient,,55.0,Male,Indian,Hindu,Noted possible drug-induced muscle injury; reports soreness.
+P04,Siti Aminah,Patient,,40.0,Female,Eurasian,Christian,Noted possible drug-induced muscle injury; reports soreness.
+P05,Muhammad Syazwan,Patient,,42.0,Male,Chinese,None,Noted possible drug-induced muscle injury; reports soreness.
+P06,Chloe de Souza,Patient,,70.0,Female,Malay,Buddhist,Noted possible drug-induced muscle injury; reports soreness.
+P07,Fatimah Binte Ahmad,Patient,,48.0,Male,Indian,Muslim,Noted possible drug-induced muscle injury; reports soreness.
+P08,David Lim,Patient,,60.0,Male,Eurasian,Hindu,Noted possible drug-induced muscle injury; reports soreness.
+P09,Karthik Raja,Patient,,38.0,Male,Chinese,Christian,Noted possible drug-induced muscle injury; reports soreness.
+P10,Mei Xin,Patient,,73.0,Male,Malay,None,Noted possible drug-induced muscle injury; reports soreness.
+P11,Patient_11,Patient,,79.0,Male,Indian,Buddhist,Generic patient record.
+P12,Patient_12,Patient,,73.0,Male,Eurasian,Muslim,Generic patient record.
+P13,Patient_13,Patient,,54.0,Female,Chinese,Hindu,Generic patient record.
+P14,Patient_14,Patient,,45.0,Female,Malay,Christian,Generic patient record.
+P15,Patient_15,Patient,,37.0,Male,Indian,None,Generic patient record.
+P16,Patient_16,Patient,,77.0,Female,Eurasian,Buddhist,Generic patient record.
+P17,Patient_17,Patient,,66.0,Male,Chinese,Muslim,Generic patient record.
+P18,Patient_18,Patient,,72.0,Male,Malay,Hindu,Generic patient record.
+P19,Patient_19,Patient,,75.0,Male,Indian,Christian,Generic patient record.
+P20,Patient_20,Patient,,34.0,Male,Eurasian,None,Generic patient record.
+P21,Patient_21,Patient,,52.0,Female,Chinese,Buddhist,Generic patient record.
+P22,Patient_22,Patient,,71.0,Female,Malay,Muslim,Generic patient record.
+P23,Patient_23,Patient,,57.0,Male,Indian,Hindu,Generic patient record.
+P24,Patient_24,Patient,,85.0,Male,Eurasian,Christian,Generic patient record.
+P25,Patient_25,Patient,,54.0,Female,Chinese,None,Generic patient record.
+P26,Patient_26,Patient,,32.0,Male,Malay,Buddhist,Generic patient record.
+P27,Patient_27,Patient,,54.0,Female,Indian,Muslim,Generic patient record.
+P28,Patient_28,Patient,,83.0,Female,Eurasian,Hindu,Generic patient record.
+P29,Patient_29,Patient,,36.0,Female,Chinese,Christian,Generic patient record.
+P30,Patient_30,Patient,,58.0,Female,Malay,None,Generic patient record.
+P31,Patient_31,Patient,,37.0,Female,Indian,Buddhist,Generic patient record.
+P32,Patient_32,Patient,,30.0,Male,Eurasian,Muslim,Generic patient record.
+P33,Patient_33,Patient,,53.0,Female,Chinese,Hindu,Generic patient record.
+P34,Patient_34,Patient,,65.0,Female,Malay,Christian,Generic patient record.
+P35,Patient_35,Patient,,78.0,Female,Indian,None,Generic patient record.
+P36,Patient_36,Patient,,52.0,Male,Eurasian,Buddhist,Generic patient record.
+P37,Patient_37,Patient,,68.0,Male,Chinese,Muslim,Generic patient record.
+P38,Patient_38,Patient,,54.0,Female,Malay,Hindu,Generic patient record.
+P39,Patient_39,Patient,,68.0,Male,Indian,Christian,Generic patient record.
+P40,Patient_40,Patient,,45.0,Male,Eurasian,None,Generic patient record.
+P41,Patient_41,Patient,,78.0,Female,Chinese,Buddhist,Generic patient record.
+P42,Patient_42,Patient,,64.0,Male,Malay,Muslim,Generic patient record.
+P43,Patient_43,Patient,,53.0,Female,Indian,Hindu,Generic patient record.
+P44,Patient_44,Patient,,45.0,Female,Eurasian,Christian,Generic patient record.
+P45,Patient_45,Patient,,33.0,Female,Chinese,One,Generic patient record.
+P46,Patient_46,<atient,,77.0,Male,Malay,Buddhist,Generic patient record.
+P47,Patient_47,Patient,,47.0,Male,Indian,Muslim,Generic patient record.
+P48,Patient_48,Patient,,60.0,Male,Eurasian,Hindu,Generic patient record.
+P49,ETH_Chinese,HAS_ETHNICITY,,,
+P49,REL_Christian,HAS_RELIGION,,,
+P50,ETH_Malay,HAS_ETHNICITY,,,
+P50,REL_None,HAS_RELIGION,,,

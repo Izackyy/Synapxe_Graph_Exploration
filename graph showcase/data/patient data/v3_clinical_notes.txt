@@ -1,0 +1,1595 @@
+========================================
+PATIENT RECORD: S1011 - Rajendran s/o Muthu
+========================================
+
+Note ID: EM_S1011_1
+Date: 2025-05-24 23:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with tea-colored urine.
+Initial Lab: Creatine Kinase (CK) recorded at 27847 U/L.
+--------------------
+Note ID: EM_S1011_2
+Date: 2025-05-25 00:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with muscle tenderness.
+Initial Lab: Creatine Kinase (CK) recorded at 38181 U/L.
+--------------------
+Note ID: EM_S1011_3
+Date: 2025-05-24 07:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 36573 U/L.
+--------------------
+Note ID: EM_S1011_4
+Date: 2025-05-24 12:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with severe myalgia.
+Initial Lab: Creatine Kinase (CK) recorded at 31757 U/L.
+--------------------
+Note ID: EM_S1011_5
+Date: 2025-05-24 12:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Clinical Presentation: Patient presents with severe myalgia.
+Initial Lab: Creatine Kinase (CK) recorded at 45877 U/L.
+--------------------
+Note ID: EM_S1011_6
+Date: 2025-05-24 12:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Clinical Presentation: Patient presents with bilateral thigh weakness.
+Initial Lab: Creatine Kinase (CK) recorded at 25684 U/L.
+--------------------
+Note ID: EM_S1011_7
+Date: 2025-05-24 05:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 41830 U/L.
+--------------------
+Note ID: EM_S1011_8
+Date: 2025-05-24 04:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with muscle tenderness.
+Initial Lab: Creatine Kinase (CK) recorded at 31444 U/L.
+--------------------
+Note ID: EM_S1011_9
+Date: 2025-05-24 11:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Clinical Presentation: Patient presents with bilateral thigh weakness.
+Initial Lab: Creatine Kinase (CK) recorded at 29446 U/L.
+--------------------
+Note ID: EM_S1011_10
+Date: 2025-05-24 01:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with tea-colored urine.
+Initial Lab: Creatine Kinase (CK) recorded at 43823 U/L.
+--------------------
+Note ID: DI_S1011_1
+Date: 2025-05-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 598 U/L.
+--------------------
+Note ID: DI_S1011_2
+Date: 2025-05-29 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 961 U/L.
+--------------------
+Note ID: DI_S1011_3
+Date: 2025-05-30 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 434 U/L.
+--------------------
+Note ID: DI_S1011_4
+Date: 2025-06-01 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 692 U/L.
+--------------------
+Note ID: DI_S1011_5
+Date: 2025-05-31 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 839 U/L.
+--------------------
+Note ID: DI_S1011_6
+Date: 2025-05-29 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 405 U/L.
+--------------------
+Note ID: DI_S1011_7
+Date: 2025-06-01 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 290 U/L.
+--------------------
+Note ID: DI_S1011_8
+Date: 2025-05-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 732 U/L.
+--------------------
+Note ID: DI_S1011_9
+Date: 2025-05-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 374 U/L.
+--------------------
+Note ID: DI_S1011_10
+Date: 2025-05-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 980 U/L.
+--------------------
+
+========================================
+PATIENT RECORD: S1012 - Tan Wei Ling
+========================================
+
+Note ID: EM_S1012_1
+Date: 2025-03-13 08:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Clinical Presentation: Patient presents with muscle tenderness.
+Initial Lab: Creatine Kinase (CK) recorded at 1865 U/L.
+--------------------
+Note ID: EM_S1012_2
+Date: 2025-03-13 05:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Clinical Presentation: Patient presents with bilateral thigh weakness.
+Initial Lab: Creatine Kinase (CK) recorded at 1709 U/L.
+--------------------
+Note ID: EM_S1012_3
+Date: 2025-03-13 16:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 1666 U/L.
+--------------------
+Note ID: EM_S1012_4
+Date: 2025-03-13 12:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Clinical Presentation: Patient presents with tea-colored urine.
+Initial Lab: Creatine Kinase (CK) recorded at 1268 U/L.
+--------------------
+Note ID: EM_S1012_5
+Date: 2025-03-13 11:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 2196 U/L.
+--------------------
+Note ID: EM_S1012_6
+Date: 2025-03-13 10:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 2080 U/L.
+--------------------
+Note ID: EM_S1012_7
+Date: 2025-03-13 05:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 1776 U/L.
+--------------------
+Note ID: EM_S1012_8
+Date: 2025-03-13 09:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 1661 U/L.
+--------------------
+Note ID: EM_S1012_9
+Date: 2025-03-13 10:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 1301 U/L.
+--------------------
+Note ID: EM_S1012_10
+Date: 2025-03-14 00:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Clinical Presentation: Patient presents with muscle tenderness.
+Initial Lab: Creatine Kinase (CK) recorded at 2044 U/L.
+--------------------
+Note ID: DI_S1012_1
+Date: 2025-03-22 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 444 U/L.
+--------------------
+Note ID: DI_S1012_2
+Date: 2025-03-23 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 616 U/L.
+--------------------
+Note ID: DI_S1012_3
+Date: 2025-03-20 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 562 U/L.
+--------------------
+Note ID: DI_S1012_4
+Date: 2025-03-22 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 331 U/L.
+--------------------
+Note ID: DI_S1012_5
+Date: 2025-03-17 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 594 U/L.
+--------------------
+Note ID: DI_S1012_6
+Date: 2025-03-20 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 189 U/L.
+--------------------
+Note ID: DI_S1012_7
+Date: 2025-03-16 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 542 U/L.
+--------------------
+Note ID: DI_S1012_8
+Date: 2025-03-16 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 725 U/L.
+--------------------
+Note ID: DI_S1012_9
+Date: 2025-03-22 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 950 U/L.
+--------------------
+Note ID: DI_S1012_10
+Date: 2025-03-18 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Lisinopril, Atorvastatin, Amlodipine
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 482 U/L.
+--------------------
+
+========================================
+PATIENT RECORD: S1013 - Priya Devi
+========================================
+
+Note ID: EM_S1013_1
+Date: 2024-12-10 00:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Aspirin, Lisinopril, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 38283 U/L.
+--------------------
+Note ID: EM_S1013_2
+Date: 2024-12-10 23:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Aspirin, Atorvastatin, Amlodipine
+Clinical Presentation: Patient presents with severe myalgia.
+Initial Lab: Creatine Kinase (CK) recorded at 39116 U/L.
+--------------------
+Note ID: EM_S1013_3
+Date: 2024-12-10 18:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Amlodipine, Warfarin, Metformin
+Clinical Presentation: Patient presents with muscle tenderness.
+Initial Lab: Creatine Kinase (CK) recorded at 46638 U/L.
+--------------------
+Note ID: EM_S1013_4
+Date: 2024-12-10 23:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Warfarin, Aspirin
+Clinical Presentation: Patient presents with muscle tenderness.
+Initial Lab: Creatine Kinase (CK) recorded at 25510 U/L.
+--------------------
+Note ID: EM_S1013_5
+Date: 2024-12-10 18:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Amlodipine, Metformin, Lisinopril
+Clinical Presentation: Patient presents with tea-colored urine.
+Initial Lab: Creatine Kinase (CK) recorded at 33633 U/L.
+--------------------
+Note ID: EM_S1013_6
+Date: 2024-12-11 00:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Warfarin, Lisinopril, Atorvastatin
+Clinical Presentation: Patient presents with severe myalgia.
+Initial Lab: Creatine Kinase (CK) recorded at 32249 U/L.
+--------------------
+Note ID: EM_S1013_7
+Date: 2024-12-10 11:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Aspirin, Lisinopril
+Clinical Presentation: Patient presents with muscle tenderness.
+Initial Lab: Creatine Kinase (CK) recorded at 34983 U/L.
+--------------------
+Note ID: EM_S1013_8
+Date: 2024-12-10 04:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Metformin, Aspirin, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 42309 U/L.
+--------------------
+Note ID: EM_S1013_9
+Date: 2024-12-10 23:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Metformin, Atorvastatin, Warfarin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 29568 U/L.
+--------------------
+Note ID: EM_S1013_10
+Date: 2024-12-10 23:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Aspirin, Atorvastatin
+Clinical Presentation: Patient presents with muscle tenderness.
+Initial Lab: Creatine Kinase (CK) recorded at 43353 U/L.
+--------------------
+Note ID: DI_S1013_1
+Date: 2024-12-17 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Warfarin, Lisinopril
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 708 U/L.
+--------------------
+Note ID: DI_S1013_2
+Date: 2024-12-14 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Warfarin, Metformin, Lisinopril, Aspirin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 843 U/L.
+--------------------
+Note ID: DI_S1013_3
+Date: 2024-12-14 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Metformin, Aspirin, Atorvastatin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 733 U/L.
+--------------------
+Note ID: DI_S1013_4
+Date: 2024-12-16 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Warfarin, Amlodipine, Atorvastatin, Lisinopril
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 677 U/L.
+--------------------
+Note ID: DI_S1013_5
+Date: 2024-12-17 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Metformin, Amlodipine
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 649 U/L.
+--------------------
+Note ID: DI_S1013_6
+Date: 2024-12-16 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Atorvastatin, Warfarin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 452 U/L.
+--------------------
+Note ID: DI_S1013_7
+Date: 2024-12-18 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Amlodipine, Aspirin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 852 U/L.
+--------------------
+Note ID: DI_S1013_8
+Date: 2024-12-18 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Atorvastatin, Warfarin, Aspirin, Lisinopril
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 329 U/L.
+--------------------
+Note ID: DI_S1013_9
+Date: 2024-12-19 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Lisinopril, Aspirin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 492 U/L.
+--------------------
+Note ID: DI_S1013_10
+Date: 2024-12-18 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Warfarin, Lisinopril, Atorvastatin, Metformin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 405 U/L.
+--------------------
+
+========================================
+PATIENT RECORD: S1014 - Chloe de Souza
+========================================
+
+Note ID: EM_S1014_1
+Date: 2025-05-09 17:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Lisinopril, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 148 U/L.
+--------------------
+Note ID: EM_S1014_2
+Date: 2025-05-09 18:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Warfarin, Aspirin, Amlodipine, Atorvastatin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 157 U/L.
+--------------------
+Note ID: EM_S1014_3
+Date: 2025-05-09 16:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Amlodipine, Lisinopril, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 203 U/L.
+--------------------
+Note ID: EM_S1014_4
+Date: 2025-05-09 19:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Aspirin, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 159 U/L.
+--------------------
+Note ID: EM_S1014_5
+Date: 2025-05-09 20:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Metformin, Aspirin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 207 U/L.
+--------------------
+Note ID: EM_S1014_6
+Date: 2025-05-09 15:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Warfarin, Atorvastatin, Amlodipine, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 124 U/L.
+--------------------
+Note ID: EM_S1014_7
+Date: 2025-05-09 16:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Metformin, Aspirin, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 158 U/L.
+--------------------
+Note ID: EM_S1014_8
+Date: 2025-05-09 15:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Amlodipine, Warfarin, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 127 U/L.
+--------------------
+Note ID: EM_S1014_9
+Date: 2025-05-09 22:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 211 U/L.
+--------------------
+Note ID: EM_S1014_10
+Date: 2025-05-09 10:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Amlodipine, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 226 U/L.
+--------------------
+Note ID: DI_S1014_1
+Date: 2025-05-19 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Amlodipine, Lisinopril
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 748 U/L.
+--------------------
+Note ID: DI_S1014_2
+Date: 2025-05-18 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Warfarin, Lisinopril
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 482 U/L.
+--------------------
+Note ID: DI_S1014_3
+Date: 2025-05-15 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Lisinopril, Atorvastatin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 685 U/L.
+--------------------
+Note ID: DI_S1014_4
+Date: 2025-05-18 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Warfarin, Atorvastatin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 871 U/L.
+--------------------
+Note ID: DI_S1014_5
+Date: 2025-05-16 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Aspirin, Atorvastatin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 835 U/L.
+--------------------
+Note ID: DI_S1014_6
+Date: 2025-05-18 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Aspirin, Amlodipine
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 906 U/L.
+--------------------
+Note ID: DI_S1014_7
+Date: 2025-05-14 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Warfarin, Lisinopril, Amlodipine
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 680 U/L.
+--------------------
+Note ID: DI_S1014_8
+Date: 2025-05-15 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Lisinopril, Warfarin, Metformin, Aspirin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 216 U/L.
+--------------------
+Note ID: DI_S1014_9
+Date: 2025-05-12 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Metformin, Aspirin, Atorvastatin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 289 U/L.
+--------------------
+Note ID: DI_S1014_10
+Date: 2025-05-16 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Atorvastatin, Aspirin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 164 U/L.
+--------------------
+
+========================================
+PATIENT RECORD: S1015 - David Lim
+========================================
+
+Note ID: EM_S1015_1
+Date: 2025-12-24 03:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Amlodipine, Aspirin, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 107 U/L.
+--------------------
+Note ID: EM_S1015_2
+Date: 2025-12-25 00:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Lisinopril, Aspirin, Atorvastatin, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 226 U/L.
+--------------------
+Note ID: EM_S1015_3
+Date: 2025-12-24 13:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Lisinopril, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 180 U/L.
+--------------------
+Note ID: EM_S1015_4
+Date: 2025-12-24 23:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Metformin, Atorvastatin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 228 U/L.
+--------------------
+Note ID: EM_S1015_5
+Date: 2025-12-24 18:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Atorvastatin, Warfarin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 122 U/L.
+--------------------
+Note ID: EM_S1015_6
+Date: 2025-12-24 16:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Aspirin, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 195 U/L.
+--------------------
+Note ID: EM_S1015_7
+Date: 2025-12-24 12:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Atorvastatin, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 201 U/L.
+--------------------
+Note ID: EM_S1015_8
+Date: 2025-12-24 15:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Amlodipine, Atorvastatin, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 203 U/L.
+--------------------
+Note ID: EM_S1015_9
+Date: 2025-12-24 09:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Lisinopril, Warfarin, Atorvastatin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 166 U/L.
+--------------------
+Note ID: EM_S1015_10
+Date: 2025-12-24 11:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Aspirin, Warfarin, Amlodipine, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 177 U/L.
+--------------------
+Note ID: DI_S1015_1
+Date: 2026-01-03 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Atorvastatin, Aspirin, Amlodipine
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 973 U/L.
+--------------------
+Note ID: DI_S1015_2
+Date: 2025-12-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Amlodipine, Aspirin, Warfarin, Metformin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 763 U/L.
+--------------------
+Note ID: DI_S1015_3
+Date: 2025-12-30 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Lisinopril, Amlodipine
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 288 U/L.
+--------------------
+Note ID: DI_S1015_4
+Date: 2025-12-30 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Atorvastatin, Metformin, Lisinopril, Aspirin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 969 U/L.
+--------------------
+Note ID: DI_S1015_5
+Date: 2025-12-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Amlodipine, Warfarin, Lisinopril, Metformin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 172 U/L.
+--------------------
+Note ID: DI_S1015_6
+Date: 2026-01-02 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Metformin, Aspirin, Atorvastatin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 384 U/L.
+--------------------
+Note ID: DI_S1015_7
+Date: 2025-12-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Warfarin, Amlodipine, Aspirin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 652 U/L.
+--------------------
+Note ID: DI_S1015_8
+Date: 2025-12-29 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Amlodipine, Atorvastatin, Metformin, Warfarin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 349 U/L.
+--------------------
+Note ID: DI_S1015_9
+Date: 2025-12-29 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Aspirin, Atorvastatin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 632 U/L.
+--------------------
+Note ID: DI_S1015_10
+Date: 2025-12-29 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Atorvastatin, Lisinopril, Warfarin, Amlodipine
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 639 U/L.
+--------------------
+
+========================================
+PATIENT RECORD: S1016 - Mei Xin
+========================================
+
+Note ID: EM_S1016_1
+Date: 2025-05-04 11:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Atorvastatin, Amlodipine, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 223 U/L.
+--------------------
+Note ID: EM_S1016_2
+Date: 2025-05-04 02:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Lisinopril, Atorvastatin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 221 U/L.
+--------------------
+Note ID: EM_S1016_3
+Date: 2025-05-04 20:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Atorvastatin, Amlodipine, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 129 U/L.
+--------------------
+Note ID: EM_S1016_4
+Date: 2025-05-04 10:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Metformin, Aspirin, Atorvastatin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 183 U/L.
+--------------------
+Note ID: EM_S1016_5
+Date: 2025-05-05 00:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Metformin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 192 U/L.
+--------------------
+Note ID: EM_S1016_6
+Date: 2025-05-04 01:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Warfarin, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 210 U/L.
+--------------------
+Note ID: EM_S1016_7
+Date: 2025-05-04 21:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 247 U/L.
+--------------------
+Note ID: EM_S1016_8
+Date: 2025-05-04 08:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Amlodipine, Lisinopril, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 210 U/L.
+--------------------
+Note ID: EM_S1016_9
+Date: 2025-05-04 08:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Warfarin, Metformin, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 173 U/L.
+--------------------
+Note ID: EM_S1016_10
+Date: 2025-05-04 13:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Aspirin, Metformin, Atorvastatin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 200 U/L.
+--------------------
+Note ID: DI_S1016_1
+Date: 2025-05-13 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Metformin, Lisinopril, Aspirin, Amlodipine
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 977 U/L.
+--------------------
+Note ID: DI_S1016_2
+Date: 2025-05-13 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Amlodipine, Warfarin, Metformin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 368 U/L.
+--------------------
+Note ID: DI_S1016_3
+Date: 2025-05-08 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Warfarin, Lisinopril
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 788 U/L.
+--------------------
+Note ID: DI_S1016_4
+Date: 2025-05-08 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Warfarin, Metformin, Lisinopril, Atorvastatin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 479 U/L.
+--------------------
+Note ID: DI_S1016_5
+Date: 2025-05-11 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Metformin, Warfarin, Atorvastatin, Lisinopril
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 481 U/L.
+--------------------
+Note ID: DI_S1016_6
+Date: 2025-05-10 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Amlodipine, Metformin, Aspirin, Atorvastatin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 833 U/L.
+--------------------
+Note ID: DI_S1016_7
+Date: 2025-05-09 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Lisinopril, Aspirin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 453 U/L.
+--------------------
+Note ID: DI_S1016_8
+Date: 2025-05-07 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Amlodipine, Lisinopril, Aspirin, Warfarin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 150 U/L.
+--------------------
+Note ID: DI_S1016_9
+Date: 2025-05-12 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Warfarin, Amlodipine
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 546 U/L.
+--------------------
+Note ID: DI_S1016_10
+Date: 2025-05-08 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Metformin, Warfarin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 218 U/L.
+--------------------
+
+========================================
+PATIENT RECORD: S1017 - Fatimah Binte Ahmad
+========================================
+
+Note ID: EM_S1017_1
+Date: 2025-06-18 09:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Lisinopril, Aspirin, Atorvastatin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 108 U/L.
+--------------------
+Note ID: EM_S1017_2
+Date: 2025-06-18 16:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Amlodipine, Aspirin, Metformin, Atorvastatin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 213 U/L.
+--------------------
+Note ID: EM_S1017_3
+Date: 2025-06-18 18:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Atorvastatin, Metformin, Warfarin, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 229 U/L.
+--------------------
+Note ID: EM_S1017_4
+Date: 2025-06-18 17:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Lisinopril, Atorvastatin, Warfarin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 156 U/L.
+--------------------
+Note ID: EM_S1017_5
+Date: 2025-06-18 23:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Lisinopril, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 128 U/L.
+--------------------
+Note ID: EM_S1017_6
+Date: 2025-06-18 09:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Lisinopril, Aspirin, Metformin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 108 U/L.
+--------------------
+Note ID: EM_S1017_7
+Date: 2025-06-18 01:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Warfarin, Amlodipine, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 207 U/L.
+--------------------
+Note ID: EM_S1017_8
+Date: 2025-06-18 10:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Amlodipine, Metformin, Lisinopril, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 241 U/L.
+--------------------
+Note ID: EM_S1017_9
+Date: 2025-06-18 00:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Warfarin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 247 U/L.
+--------------------
+Note ID: EM_S1017_10
+Date: 2025-06-18 20:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Atorvastatin, Aspirin, Lisinopril, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 185 U/L.
+--------------------
+Note ID: DI_S1017_1
+Date: 2025-06-28 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Warfarin, Amlodipine
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 282 U/L.
+--------------------
+Note ID: DI_S1017_2
+Date: 2025-06-21 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Atorvastatin, Metformin, Aspirin, Warfarin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 859 U/L.
+--------------------
+Note ID: DI_S1017_3
+Date: 2025-06-28 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Amlodipine, Aspirin, Lisinopril
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 529 U/L.
+--------------------
+Note ID: DI_S1017_4
+Date: 2025-06-26 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Atorvastatin, Lisinopril, Amlodipine, Metformin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 607 U/L.
+--------------------
+Note ID: DI_S1017_5
+Date: 2025-06-28 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Metformin, Warfarin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 635 U/L.
+--------------------
+Note ID: DI_S1017_6
+Date: 2025-06-23 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Warfarin, Amlodipine, Lisinopril
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 559 U/L.
+--------------------
+Note ID: DI_S1017_7
+Date: 2025-06-26 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Atorvastatin, Lisinopril, Aspirin, Amlodipine
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 806 U/L.
+--------------------
+Note ID: DI_S1017_8
+Date: 2025-06-22 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Metformin, Lisinopril, Atorvastatin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 179 U/L.
+--------------------
+Note ID: DI_S1017_9
+Date: 2025-06-28 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Amlodipine, Lisinopril, Warfarin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 818 U/L.
+--------------------
+Note ID: DI_S1017_10
+Date: 2025-06-28 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Atorvastatin, Amlodipine
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 781 U/L.
+--------------------
+
+========================================
+PATIENT RECORD: S1018 - Muhammad Syazwan
+========================================
+
+Note ID: EM_S1018_1
+Date: 2024-06-18 04:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Lisinopril, Metformin, Atorvastatin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 213 U/L.
+--------------------
+Note ID: EM_S1018_2
+Date: 2024-06-18 19:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Amlodipine, Warfarin, Aspirin, Atorvastatin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 233 U/L.
+--------------------
+Note ID: EM_S1018_3
+Date: 2024-06-18 20:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Aspirin, Lisinopril, Metformin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 168 U/L.
+--------------------
+Note ID: EM_S1018_4
+Date: 2024-06-18 09:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Atorvastatin, Warfarin, Aspirin, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 129 U/L.
+--------------------
+Note ID: EM_S1018_5
+Date: 2024-06-18 01:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Amlodipine, Atorvastatin, Warfarin, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 144 U/L.
+--------------------
+Note ID: EM_S1018_6
+Date: 2024-06-18 12:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Warfarin, Metformin, Amlodipine, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 111 U/L.
+--------------------
+Note ID: EM_S1018_7
+Date: 2024-06-18 00:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Lisinopril, Warfarin, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 100 U/L.
+--------------------
+Note ID: EM_S1018_8
+Date: 2024-06-18 16:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Amlodipine, Metformin, Lisinopril, Atorvastatin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 205 U/L.
+--------------------
+Note ID: EM_S1018_9
+Date: 2024-06-18 11:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Atorvastatin, Amlodipine, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 189 U/L.
+--------------------
+Note ID: EM_S1018_10
+Date: 2024-06-18 02:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 143 U/L.
+--------------------
+Note ID: DI_S1018_1
+Date: 2024-06-21 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Warfarin, Amlodipine, Atorvastatin, Aspirin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 388 U/L.
+--------------------
+Note ID: DI_S1018_2
+Date: 2024-06-23 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Atorvastatin, Warfarin, Aspirin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 671 U/L.
+--------------------
+Note ID: DI_S1018_3
+Date: 2024-06-25 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Metformin, Warfarin, Aspirin, Lisinopril
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 669 U/L.
+--------------------
+Note ID: DI_S1018_4
+Date: 2024-06-22 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Atorvastatin, Metformin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 204 U/L.
+--------------------
+Note ID: DI_S1018_5
+Date: 2024-06-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Metformin, Atorvastatin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 274 U/L.
+--------------------
+Note ID: DI_S1018_6
+Date: 2024-06-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Metformin, Atorvastatin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 709 U/L.
+--------------------
+Note ID: DI_S1018_7
+Date: 2024-06-24 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Atorvastatin, Warfarin, Aspirin, Amlodipine
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 473 U/L.
+--------------------
+Note ID: DI_S1018_8
+Date: 2024-06-25 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Lisinopril, Metformin, Aspirin, Atorvastatin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 281 U/L.
+--------------------
+Note ID: DI_S1018_9
+Date: 2024-06-25 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Metformin, Atorvastatin, Amlodipine, Warfarin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 470 U/L.
+--------------------
+Note ID: DI_S1018_10
+Date: 2024-06-24 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Metformin, Atorvastatin, Warfarin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 892 U/L.
+--------------------
+
+========================================
+PATIENT RECORD: S1019 - Siti Aminah
+========================================
+
+Note ID: EM_S1019_1
+Date: 2025-12-14 05:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Metformin, Warfarin, Amlodipine, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 117 U/L.
+--------------------
+Note ID: EM_S1019_2
+Date: 2025-12-14 03:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Aspirin, Metformin, Warfarin, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 156 U/L.
+--------------------
+Note ID: EM_S1019_3
+Date: 2025-12-14 18:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Lisinopril, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 138 U/L.
+--------------------
+Note ID: EM_S1019_4
+Date: 2025-12-14 18:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Atorvastatin, Lisinopril, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 161 U/L.
+--------------------
+Note ID: EM_S1019_5
+Date: 2025-12-14 04:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Amlodipine, Metformin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 185 U/L.
+--------------------
+Note ID: EM_S1019_6
+Date: 2025-12-14 16:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Warfarin, Amlodipine, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 207 U/L.
+--------------------
+Note ID: EM_S1019_7
+Date: 2025-12-14 13:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Atorvastatin, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 156 U/L.
+--------------------
+Note ID: EM_S1019_8
+Date: 2025-12-14 06:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Lisinopril, Metformin, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 215 U/L.
+--------------------
+Note ID: EM_S1019_9
+Date: 2025-12-14 05:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Atorvastatin, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 193 U/L.
+--------------------
+Note ID: EM_S1019_10
+Date: 2025-12-14 17:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Atorvastatin, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 175 U/L.
+--------------------
+Note ID: DI_S1019_1
+Date: 2025-12-17 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Lisinopril, Atorvastatin, Metformin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 169 U/L.
+--------------------
+Note ID: DI_S1019_2
+Date: 2025-12-20 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Metformin, Aspirin, Lisinopril, Amlodipine
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 662 U/L.
+--------------------
+Note ID: DI_S1019_3
+Date: 2025-12-18 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Atorvastatin, Metformin, Amlodipine, Aspirin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 524 U/L.
+--------------------
+Note ID: DI_S1019_4
+Date: 2025-12-17 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Amlodipine, Warfarin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 412 U/L.
+--------------------
+Note ID: DI_S1019_5
+Date: 2025-12-20 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Warfarin, Atorvastatin, Aspirin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 673 U/L.
+--------------------
+Note ID: DI_S1019_6
+Date: 2025-12-20 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Aspirin, Warfarin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 215 U/L.
+--------------------
+Note ID: DI_S1019_7
+Date: 2025-12-20 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Metformin, Aspirin, Amlodipine
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 231 U/L.
+--------------------
+Note ID: DI_S1019_8
+Date: 2025-12-22 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Warfarin, Amlodipine, Aspirin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 854 U/L.
+--------------------
+Note ID: DI_S1019_9
+Date: 2025-12-23 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Amlodipine, Aspirin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 775 U/L.
+--------------------
+Note ID: DI_S1019_10
+Date: 2025-12-19 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Atorvastatin, Warfarin, Amlodipine
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 445 U/L.
+--------------------
+
+========================================
+PATIENT RECORD: S1020 - Karthik Raja
+========================================
+
+Note ID: EM_S1020_1
+Date: 2025-10-19 17:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Aspirin, Metformin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 177 U/L.
+--------------------
+Note ID: EM_S1020_2
+Date: 2025-10-19 09:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Amlodipine, Lisinopril, Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 220 U/L.
+--------------------
+Note ID: EM_S1020_3
+Date: 2025-10-19 23:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Metformin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 200 U/L.
+--------------------
+Note ID: EM_S1020_4
+Date: 2025-10-19 15:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Atorvastatin, Amlodipine, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 131 U/L.
+--------------------
+Note ID: EM_S1020_5
+Date: 2025-10-19 22:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Lisinopril, Atorvastatin, Aspirin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 192 U/L.
+--------------------
+Note ID: EM_S1020_6
+Date: 2025-10-19 13:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Lisinopril, Aspirin, Amlodipine, Atorvastatin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 146 U/L.
+--------------------
+Note ID: EM_S1020_7
+Date: 2025-10-19 20:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Metformin, Amlodipine, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 218 U/L.
+--------------------
+Note ID: EM_S1020_8
+Date: 2025-10-19 21:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Warfarin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 227 U/L.
+--------------------
+Note ID: EM_S1020_9
+Date: 2025-10-19 13:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Atorvastatin, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 183 U/L.
+--------------------
+Note ID: EM_S1020_10
+Date: 2025-10-19 07:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Lisinopril, Metformin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 210 U/L.
+--------------------
+Note ID: DI_S1020_1
+Date: 2025-10-24 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Lisinopril, Metformin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 776 U/L.
+--------------------
+Note ID: DI_S1020_2
+Date: 2025-10-29 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Amlodipine, Lisinopril
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 291 U/L.
+--------------------
+Note ID: DI_S1020_3
+Date: 2025-10-29 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Aspirin, Amlodipine, Atorvastatin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 900 U/L.
+--------------------
+Note ID: DI_S1020_4
+Date: 2025-10-26 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Amlodipine, Warfarin, Lisinopril
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 745 U/L.
+--------------------
+Note ID: DI_S1020_5
+Date: 2025-10-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Warfarin, Aspirin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 740 U/L.
+--------------------
+Note ID: DI_S1020_6
+Date: 2025-10-24 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Metformin, Aspirin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 643 U/L.
+--------------------
+Note ID: DI_S1020_7
+Date: 2025-10-28 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Warfarin, Amlodipine, Metformin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 723 U/L.
+--------------------
+Note ID: DI_S1020_8
+Date: 2025-10-27 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Aspirin, Atorvastatin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 503 U/L.
+--------------------
+Note ID: DI_S1020_9
+Date: 2025-10-28 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Lisinopril, Metformin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 899 U/L.
+--------------------
+Note ID: DI_S1020_10
+Date: 2025-10-29 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Amlodipine, Aspirin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 515 U/L.
+--------------------
+
+========================================
+PATIENT RECORD: S1021 - Patient_11
+========================================
+
+Note ID: EM_S1021_1
+Date: 2024-10-05 08:00
+Type: EMERGENCY DEPARTMENT (Sequence: 1)
+Concurrent Meds: Atorvastatin, Aspirin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 146 U/L.
+--------------------
+Note ID: EM_S1021_2
+Date: 2024-10-05 05:00
+Type: EMERGENCY DEPARTMENT (Sequence: 2)
+Concurrent Meds: Aspirin, Metformin, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 199 U/L.
+--------------------
+Note ID: EM_S1021_3
+Date: 2024-10-05 10:00
+Type: EMERGENCY DEPARTMENT (Sequence: 3)
+Concurrent Meds: Metformin, Warfarin, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 182 U/L.
+--------------------
+Note ID: EM_S1021_4
+Date: 2024-10-05 19:00
+Type: EMERGENCY DEPARTMENT (Sequence: 4)
+Concurrent Meds: Warfarin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 158 U/L.
+--------------------
+Note ID: EM_S1021_5
+Date: 2024-10-05 06:00
+Type: EMERGENCY DEPARTMENT (Sequence: 5)
+Concurrent Meds: Metformin, Warfarin, Aspirin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 186 U/L.
+--------------------
+Note ID: EM_S1021_6
+Date: 2024-10-05 07:00
+Type: EMERGENCY DEPARTMENT (Sequence: 6)
+Concurrent Meds: Amlodipine, Atorvastatin, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 231 U/L.
+--------------------
+Note ID: EM_S1021_7
+Date: 2024-10-05 22:00
+Type: EMERGENCY DEPARTMENT (Sequence: 7)
+Concurrent Meds: Metformin, Aspirin, Atorvastatin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 107 U/L.
+--------------------
+Note ID: EM_S1021_8
+Date: 2024-10-05 20:00
+Type: EMERGENCY DEPARTMENT (Sequence: 8)
+Concurrent Meds: Atorvastatin, Aspirin, Amlodipine, Warfarin
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 230 U/L.
+--------------------
+Note ID: EM_S1021_9
+Date: 2024-10-05 02:00
+Type: EMERGENCY DEPARTMENT (Sequence: 9)
+Concurrent Meds: Atorvastatin, Metformin, Warfarin, Lisinopril
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 102 U/L.
+--------------------
+Note ID: EM_S1021_10
+Date: 2024-10-05 22:00
+Type: EMERGENCY DEPARTMENT (Sequence: 10)
+Concurrent Meds: Lisinopril, Warfarin, Amlodipine
+Clinical Presentation: Patient presents with generalized fatigue.
+Initial Lab: Creatine Kinase (CK) recorded at 171 U/L.
+--------------------
+Note ID: DI_S1021_1
+Date: 2024-10-10 00:00
+Type: DISCHARGE SUMMARY (Sequence: 1)
+Concurrent Meds: Amlodipine, Lisinopril, Metformin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 553 U/L.
+--------------------
+Note ID: DI_S1021_2
+Date: 2024-10-12 00:00
+Type: DISCHARGE SUMMARY (Sequence: 2)
+Concurrent Meds: Atorvastatin, Warfarin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 557 U/L.
+--------------------
+Note ID: DI_S1021_3
+Date: 2024-10-12 00:00
+Type: DISCHARGE SUMMARY (Sequence: 3)
+Concurrent Meds: Lisinopril, Metformin, Atorvastatin
+Recovery Status: Renal function stable.
+Discharge Lab: CK improved to 284 U/L.
+--------------------
+Note ID: DI_S1021_4
+Date: 2024-10-13 00:00
+Type: DISCHARGE SUMMARY (Sequence: 4)
+Concurrent Meds: Warfarin, Lisinopril
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 776 U/L.
+--------------------
+Note ID: DI_S1021_5
+Date: 2024-10-08 00:00
+Type: DISCHARGE SUMMARY (Sequence: 5)
+Concurrent Meds: Warfarin, Atorvastatin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 768 U/L.
+--------------------
+Note ID: DI_S1021_6
+Date: 2024-10-09 00:00
+Type: DISCHARGE SUMMARY (Sequence: 6)
+Concurrent Meds: Atorvastatin, Warfarin, Lisinopril
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 200 U/L.
+--------------------
+Note ID: DI_S1021_7
+Date: 2024-10-13 00:00
+Type: DISCHARGE SUMMARY (Sequence: 7)
+Concurrent Meds: Amlodipine, Metformin, Aspirin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 206 U/L.
+--------------------
+Note ID: DI_S1021_8
+Date: 2024-10-12 00:00
+Type: DISCHARGE SUMMARY (Sequence: 8)
+Concurrent Meds: Warfarin, Lisinopril, Atorvastatin
+Recovery Status: Hydration maintained.
+Discharge Lab: CK improved to 647 U/L.
+--------------------
+Note ID: DI_S1021_9
+Date: 2024-10-15 00:00
+Type: DISCHARGE SUMMARY (Sequence: 9)
+Concurrent Meds: Lisinopril, Aspirin, Amlodipine, Warfarin
+Recovery Status: Hyperkalemia resolved.
+Discharge Lab: CK improved to 227 U/L.
+--------------------
+Note ID: DI_S1021_10
+Date: 2024-10-11 00:00
+Type: DISCHARGE SUMMARY (Sequence: 10)
+Concurrent Meds: Atorvastatin, Metformin, Lisinopril, Aspirin
+Recovery Status: CK levels trending down.
+Discharge Lab: CK improved to 741 U/L.
+--------------------
+

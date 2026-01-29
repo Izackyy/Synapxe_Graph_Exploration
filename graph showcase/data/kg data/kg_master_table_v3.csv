@@ -1,0 +1,144 @@
+source,target,type,start_date,duration_days,occurrence_date,source_name,age,gender,target_name
+P01,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Tan Wei Ling,51.0,Female,Hypertension
+P01,M4,IS_PRESCRIBED,2024-01-15,180.0,,Tan Wei Ling,51.0,Female,Lisinopril
+P02,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Rajendran s/o Muthu,48.0,Male,Hypertension
+P02,M4,IS_PRESCRIBED,2024-01-15,180.0,,Rajendran s/o Muthu,48.0,Male,Lisinopril
+P03,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Priya Devi,55.0,Male,Hypertension
+P03,M4,IS_PRESCRIBED,2024-01-15,180.0,,Priya Devi,55.0,Male,Lisinopril
+P04,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Siti Aminah,40.0,Female,Hypertension
+P04,M4,IS_PRESCRIBED,2024-01-15,180.0,,Siti Aminah,40.0,Female,Lisinopril
+P05,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Muhammad Syazwan,42.0,Male,Hypertension
+P05,M4,IS_PRESCRIBED,2024-01-15,180.0,,Muhammad Syazwan,42.0,Male,Lisinopril
+P06,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Chloe de Souza,70.0,Female,Hypertension
+P06,M4,IS_PRESCRIBED,2024-01-15,180.0,,Chloe de Souza,70.0,Female,Lisinopril
+P07,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Fatimah Binte Ahmad,48.0,Male,Hypertension
+P07,M4,IS_PRESCRIBED,2024-01-15,180.0,,Fatimah Binte Ahmad,48.0,Male,Lisinopril
+P08,C2,IS_DIAGNOSED_WITH,,,2024-01-10,David Lim,60.0,Male,Hypertension
+P08,M4,IS_PRESCRIBED,2024-01-15,180.0,,David Lim,60.0,Male,Lisinopril
+P09,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Karthik Raja,38.0,Male,Hypertension
+P09,M5,IS_PRESCRIBED,2024-01-15,180.0,,Karthik Raja,38.0,Male,Ramipril
+P10,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Mei Xin,73.0,Male,Hypertension
+P10,M5,IS_PRESCRIBED,2024-01-15,180.0,,Mei Xin,73.0,Male,Ramipril
+P11,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Patient_11,79.0,Male,Hypertension
+P11,M5,IS_PRESCRIBED,2024-01-15,180.0,,Patient_11,79.0,Male,Ramipril
+P12,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Patient_12,73.0,Male,Hypertension
+P12,M5,IS_PRESCRIBED,2024-01-15,180.0,,Patient_12,73.0,Male,Ramipril
+P13,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Patient_13,54.0,Female,Hypertension
+P13,M5,IS_PRESCRIBED,2024-01-15,180.0,,Patient_13,54.0,Female,Ramipril
+P14,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Patient_14,45.0,Female,Hypertension
+P14,M5,IS_PRESCRIBED,2024-01-15,180.0,,Patient_14,45.0,Female,Ramipril
+P15,C2,IS_DIAGNOSED_WITH,,,2024-01-10,Patient_15,37.0,Male,Hypertension
+P15,M5,IS_PRESCRIBED,2024-01-15,180.0,,Patient_15,37.0,Male,Ramipril
+P03,M4,IS_PRESCRIBED,2024-03-01,30.0,,Priya Devi,55.0,Male,Lisinopril
+P03,C1,IS_DIAGNOSED_WITH,,,2024-03-08,Priya Devi,55.0,Male,Rhabdomyolysis
+P01,M1,IS_PRESCRIBED,2024-02-01,5.0,,Tan Wei Ling,51.0,Female,Atorvastatin
+P01,T1,EXPERIENCED_TRIGGER,,,2024-02-06,Tan Wei Ling,51.0,Female,Statin-Induced Myopathy
+P01,M10,IS_PRESCRIBED,2024-02-07,90.0,,Tan Wei Ling,51.0,Female,Ezetimibe
+T1,C1,CAUSES,,,,Statin-Induced Myopathy,,,Rhabdomyolysis
+P02,M1,IS_PRESCRIBED,2024-04-01,200.0,,Rajendran s/o Muthu,48.0,Male,Atorvastatin
+P02,M4,IS_PRESCRIBED,2024-04-10,200.0,,Rajendran s/o Muthu,48.0,Male,Lisinopril
+P02,C1,IS_DIAGNOSED_WITH,,,2024-04-15,Rajendran s/o Muthu,48.0,Male,Rhabdomyolysis
+P01,ETH_Chinese,HAS_ETHNICITY,,,,Tan Wei Ling,51.0,Female,Chinese
+P01,REL_Buddhist,HAS_RELIGION,,,,Tan Wei Ling,51.0,Female,Buddhist
+P02,ETH_Malay,HAS_ETHNICITY,,,,Rajendran s/o Muthu,48.0,Male,Malay
+P02,REL_Muslim,HAS_RELIGION,,,,Rajendran s/o Muthu,48.0,Male,Muslim
+P03,ETH_Indian,HAS_ETHNICITY,,,,Priya Devi,55.0,Male,Indian
+P03,REL_Hindu,HAS_RELIGION,,,,Priya Devi,55.0,Male,Hindu
+P04,ETH_Eurasian,HAS_ETHNICITY,,,,Siti Aminah,40.0,Female,Eurasian
+P04,REL_Christian,HAS_RELIGION,,,,Siti Aminah,40.0,Female,Christian
+P05,ETH_Chinese,HAS_ETHNICITY,,,,Muhammad Syazwan,42.0,Male,Chinese
+P05,REL_None,HAS_RELIGION,,,,Muhammad Syazwan,42.0,Male,
+P06,ETH_Malay,HAS_ETHNICITY,,,,Chloe de Souza,70.0,Female,Malay
+P06,REL_Buddhist,HAS_RELIGION,,,,Chloe de Souza,70.0,Female,Buddhist
+P07,ETH_Indian,HAS_ETHNICITY,,,,Fatimah Binte Ahmad,48.0,Male,Indian
+P07,REL_Muslim,HAS_RELIGION,,,,Fatimah Binte Ahmad,48.0,Male,Muslim
+P08,ETH_Eurasian,HAS_ETHNICITY,,,,David Lim,60.0,Male,Eurasian
+P08,REL_Hindu,HAS_RELIGION,,,,David Lim,60.0,Male,Hindu
+P09,ETH_Chinese,HAS_ETHNICITY,,,,Karthik Raja,38.0,Male,Chinese
+P09,REL_Christian,HAS_RELIGION,,,,Karthik Raja,38.0,Male,Christian
+P10,ETH_Malay,HAS_ETHNICITY,,,,Mei Xin,73.0,Male,Malay
+P10,REL_None,HAS_RELIGION,,,,Mei Xin,73.0,Male,
+P11,ETH_Indian,HAS_ETHNICITY,,,,Patient_11,79.0,Male,Indian
+P11,REL_Buddhist,HAS_RELIGION,,,,Patient_11,79.0,Male,Buddhist
+P12,ETH_Eurasian,HAS_ETHNICITY,,,,Patient_12,73.0,Male,Eurasian
+P12,REL_Muslim,HAS_RELIGION,,,,Patient_12,73.0,Male,Muslim
+P13,ETH_Chinese,HAS_ETHNICITY,,,,Patient_13,54.0,Female,Chinese
+P13,REL_Hindu,HAS_RELIGION,,,,Patient_13,54.0,Female,Hindu
+P14,ETH_Malay,HAS_ETHNICITY,,,,Patient_14,45.0,Female,Malay
+P14,REL_Christian,HAS_RELIGION,,,,Patient_14,45.0,Female,Christian
+P15,ETH_Indian,HAS_ETHNICITY,,,,Patient_15,37.0,Male,Indian
+P15,REL_None,HAS_RELIGION,,,,Patient_15,37.0,Male,
+P16,ETH_Eurasian,HAS_ETHNICITY,,,,Patient_16,77.0,Female,Eurasian
+P16,REL_Buddhist,HAS_RELIGION,,,,Patient_16,77.0,Female,Buddhist
+P17,ETH_Chinese,HAS_ETHNICITY,,,,Patient_17,66.0,Male,Chinese
+P17,REL_Muslim,HAS_RELIGION,,,,Patient_17,66.0,Male,Muslim
+P18,ETH_Malay,HAS_ETHNICITY,,,,Patient_18,72.0,Male,Malay
+P18,REL_Hindu,HAS_RELIGION,,,,Patient_18,72.0,Male,Hindu
+P19,ETH_Indian,HAS_ETHNICITY,,,,Patient_19,75.0,Male,Indian
+P19,REL_Christian,HAS_RELIGION,,,,Patient_19,75.0,Male,Christian
+P20,ETH_Eurasian,HAS_ETHNICITY,,,,Patient_20,34.0,Male,Eurasian
+P20,REL_None,HAS_RELIGION,,,,Patient_20,34.0,Male,
+P21,ETH_Chinese,HAS_ETHNICITY,,,,Patient_21,52.0,Female,Chinese
+P21,REL_Buddhist,HAS_RELIGION,,,,Patient_21,52.0,Female,Buddhist
+P22,ETH_Malay,HAS_ETHNICITY,,,,Patient_22,71.0,Female,Malay
+P22,REL_Muslim,HAS_RELIGION,,,,Patient_22,71.0,Female,Muslim
+P23,ETH_Indian,HAS_ETHNICITY,,,,Patient_23,57.0,Male,Indian
+P23,REL_Hindu,HAS_RELIGION,,,,Patient_23,57.0,Male,Hindu
+P24,ETH_Eurasian,HAS_ETHNICITY,,,,Patient_24,85.0,Male,Eurasian
+P24,REL_Christian,HAS_RELIGION,,,,Patient_24,85.0,Male,Christian
+P25,ETH_Chinese,HAS_ETHNICITY,,,,Patient_25,54.0,Female,Chinese
+P25,REL_None,HAS_RELIGION,,,,Patient_25,54.0,Female,
+P26,ETH_Malay,HAS_ETHNICITY,,,,Patient_26,32.0,Male,Malay
+P26,REL_Buddhist,HAS_RELIGION,,,,Patient_26,32.0,Male,Buddhist
+P27,ETH_Indian,HAS_ETHNICITY,,,,Patient_27,54.0,Female,Indian
+P27,REL_Muslim,HAS_RELIGION,,,,Patient_27,54.0,Female,Muslim
+P28,ETH_Eurasian,HAS_ETHNICITY,,,,Patient_28,83.0,Female,Eurasian
+P28,REL_Hindu,HAS_RELIGION,,,,Patient_28,83.0,Female,Hindu
+P29,ETH_Chinese,HAS_ETHNICITY,,,,Patient_29,36.0,Female,Chinese
+P29,REL_Christian,HAS_RELIGION,,,,Patient_29,36.0,Female,Christian
+P30,ETH_Malay,HAS_ETHNICITY,,,,Patient_30,58.0,Female,Malay
+P30,REL_None,HAS_RELIGION,,,,Patient_30,58.0,Female,
+P31,ETH_Indian,HAS_ETHNICITY,,,,Patient_31,37.0,Female,Indian
+P31,REL_Buddhist,HAS_RELIGION,,,,Patient_31,37.0,Female,Buddhist
+P32,ETH_Eurasian,HAS_ETHNICITY,,,,Patient_32,30.0,Male,Eurasian
+P32,REL_Muslim,HAS_RELIGION,,,,Patient_32,30.0,Male,Muslim
+P33,ETH_Chinese,HAS_ETHNICITY,,,,Patient_33,53.0,Female,Chinese
+P33,REL_Hindu,HAS_RELIGION,,,,Patient_33,53.0,Female,Hindu
+P34,ETH_Malay,HAS_ETHNICITY,,,,Patient_34,65.0,Female,Malay
+P34,REL_Christian,HAS_RELIGION,,,,Patient_34,65.0,Female,Christian
+P35,ETH_Indian,HAS_ETHNICITY,,,,Patient_35,78.0,Female,Indian
+P35,REL_None,HAS_RELIGION,,,,Patient_35,78.0,Female,
+P36,ETH_Eurasian,HAS_ETHNICITY,,,,Patient_36,52.0,Male,Eurasian
+P36,REL_Buddhist,HAS_RELIGION,,,,Patient_36,52.0,Male,Buddhist
+P37,ETH_Chinese,HAS_ETHNICITY,,,,Patient_37,68.0,Male,Chinese
+P37,REL_Muslim,HAS_RELIGION,,,,Patient_37,68.0,Male,Muslim
+P38,ETH_Malay,HAS_ETHNICITY,,,,Patient_38,54.0,Female,Malay
+P38,REL_Hindu,HAS_RELIGION,,,,Patient_38,54.0,Female,Hindu
+P39,ETH_Indian,HAS_ETHNICITY,,,,Patient_39,68.0,Male,Indian
+P39,REL_Christian,HAS_RELIGION,,,,Patient_39,68.0,Male,Christian
+P40,ETH_Eurasian,HAS_ETHNICITY,,,,Patient_40,45.0,Male,Eurasian
+P40,REL_None,HAS_RELIGION,,,,Patient_40,45.0,Male,
+P41,ETH_Chinese,HAS_ETHNICITY,,,,Patient_41,78.0,Female,Chinese
+P41,REL_Buddhist,HAS_RELIGION,,,,Patient_41,78.0,Female,Buddhist
+P42,ETH_Malay,HAS_ETHNICITY,,,,Patient_42,64.0,Male,Malay
+P42,REL_Muslim,HAS_RELIGION,,,,Patient_42,64.0,Male,Muslim
+P43,ETH_Indian,HAS_ETHNICITY,,,,Patient_43,53.0,Female,Indian
+P43,REL_Hindu,HAS_RELIGION,,,,Patient_43,53.0,Female,Hindu
+P44,ETH_Eurasian,HAS_ETHNICITY,,,,Patient_44,45.0,Female,Eurasian
+P44,REL_Christian,HAS_RELIGION,,,,Patient_44,45.0,Female,Christian
+P45,ETH_Chinese,HAS_ETHNICITY,,,,Patient_45,33.0,Female,Chinese
+P45,REL_None,HAS_RELIGION,,,,Patient_45,33.0,Female,
+P46,ETH_Malay,HAS_ETHNICITY,,,,Patient_46,77.0,Male,Malay
+P46,REL_Buddhist,HAS_RELIGION,,,,Patient_46,77.0,Male,Buddhist
+P47,ETH_Indian,HAS_ETHNICITY,,,,Patient_47,47.0,Male,Indian
+P47,REL_Muslim,HAS_RELIGION,,,,Patient_47,47.0,Male,Muslim
+P48,ETH_Eurasian,HAS_ETHNICITY,,,,Patient_48,60.0,Male,Eurasian
+P48,REL_Hindu,HAS_RELIGION,,,,Patient_48,60.0,Male,Hindu
+P49,ETH_Chinese,HAS_ETHNICITY,,,,ETH_Chinese,,,Chinese
+P49,ETH_Chinese,HAS_ETHNICITY,,,,REL_Christian,,,Chinese
+P49,REL_Christian,HAS_RELIGION,,,,ETH_Chinese,,,Christian
+P49,REL_Christian,HAS_RELIGION,,,,REL_Christian,,,Christian
+P50,ETH_Malay,HAS_ETHNICITY,,,,ETH_Malay,,,Malay
+P50,ETH_Malay,HAS_ETHNICITY,,,,REL_None,,,Malay
+P50,REL_None,HAS_RELIGION,,,,ETH_Malay,,,
+P50,REL_None,HAS_RELIGION,,,,REL_None,,,

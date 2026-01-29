@@ -1,0 +1,49 @@
+Patient ID,Name,Age,Gender,Race,Religion
+P01,Tan Wei Ling,51,Female,Chinese,Buddhist
+P02,Rajendran s/o Muthu,48,Male,Indian,Hindu
+P03,Priya Devi,55,Male,Indian,Hindu
+P04,Siti Aminah,40,Female,Malay,Muslim
+P05,Muhammad Syazwan,42,Male,Malay,Muslim
+P06,Chloe de Souza,70,Female,Eurasian,Christian
+P07,Fatimah Binte Ahmad,48,Male,Malay,Muslim
+P08,David Lim,60,Male,Indian,Hindu
+P09,Karthik Raja,38,Male,Malay,Hindu
+P10,Mei Xin,73,Male,Chinese,Christian
+P11,Patient_11,79,Male,Indian,Buddhist
+P12,Patient_12,73,Male,Eurasian,Muslim
+P13,Patient_13,54,Female,Chinese,Hindu
+P14,Patient_14,45,Female,Malay,Christian
+P15,Patient_15,37,Male,Indian,
+P16,Patient_16,77,Female,Eurasian,Buddhist
+P17,Patient_17,66,Male,Chinese,Muslim
+P18,Patient_18,72,Male,Malay,Hindu
+P19,Patient_19,75,Male,Indian,Christian
+P20,Patient_20,34,Male,Eurasian,
+P21,Patient_21,52,Female,Chinese,Buddhist
+P22,Patient_22,71,Female,Malay,Muslim
+P23,Patient_23,57,Male,Indian,Hindu
+P24,Patient_24,85,Male,Eurasian,Christian
+P25,Patient_25,54,Female,Chinese,
+P26,Patient_26,32,Male,Malay,Buddhist
+P27,Patient_27,54,Female,Indian,Muslim
+P28,Patient_28,83,Female,Eurasian,Hindu
+P29,Patient_29,36,Female,Chinese,Christian
+P30,Patient_30,58,Female,Malay,
+P31,Patient_31,37,Female,Indian,Buddhist
+P32,Patient_32,30,Male,Eurasian,Muslim
+P33,Patient_33,53,Female,Chinese,Hindu
+P34,Patient_34,65,Female,Malay,Christian
+P35,Patient_35,78,Female,Indian,
+P36,Patient_36,52,Male,Eurasian,Buddhist
+P37,Patient_37,68,Male,Chinese,Muslim
+P38,Patient_38,54,Female,Malay,Hindu
+P39,Patient_39,68,Male,Indian,Christian
+P40,Patient_40,45,Male,Eurasian,
+P41,Patient_41,78,Female,Chinese,Buddhist
+P42,Patient_42,64,Male,Malay,Muslim
+P43,Patient_43,53,Female,Indian,Hindu
+P44,Patient_44,45,Female,Eurasian,Christian
+P45,Patient_45,33,Female,Chinese,One
+P47,Patient_47,47,Male,Indian,Muslim
+P48,Patient_48,60,Male,Eurasian,Hindu
+S1005,Lim Boon Hock,84,Male,Chinese,Taoist
