@@ -72,9 +72,21 @@ class Neo4jIngester:
         )
         tx.run(query, source_id=source_id, target_id=target_id, props=props)
 
+def load_ingested_log(log_path: Path):
+    """Reads the list of already processed files."""
+    if not log_path.exists():
+        return set()
+    return set(log_path.read_text().splitlines())
+
+def update_ingested_log(log_path: Path, filename: str):
+    """Appends a successfully processed filename to the log."""
+    with open(log_path, "a") as f:
+        f.write(f"{filename}\n")
+
 def main():
     script_dir = Path(__file__).resolve().parent
     output_dir = script_dir / "graph_outputs"
+    log_file = script_dir / "ingested_files.txt"
     
     logger.info(f"Searching for JSON in: {output_dir.absolute()}")
     
@@ -84,21 +96,34 @@ def main():
     USER = "neo4j"
     PASSWORD = "Password1!" 
 
+# 2. Get list of files and filter against log
     if not output_dir.exists():
-        logger.error(f"Error: Folder NOT found at {output_dir.absolute()}")
+        logger.error(f"Folder NOT found at {output_dir}")
         return
 
-    json_files = list(output_dir.glob("*.json"))
-    logger.info(f"Found {len(json_files)} files: {[f.name for f in json_files]}")
+    all_files = list(output_dir.glob("*.json"))
+    ingested_set = load_ingested_log(log_file)
+    
+    # Only pick files NOT in the log
+    to_process = [f for f in all_files if f.name not in ingested_set]
 
-    if not json_files:
+    logger.info(f"Total files in folder: {len(all_files)}")
+    logger.info(f"Already ingested: {len(ingested_set)}")
+    logger.info(f"New files to process: {len(to_process)}")
+
+    if not to_process:
+        logger.info("No new files to ingest. Exiting.")
         return
 
-    ingester = Neo4jIngester(URI, USER, PASSWORD)
+    # Ingest and Update Log
+    ingester = Neo4jIngester(URI, "neo4j", PASSWORD)
     try:
-        for json_file in json_files:
+        for json_file in to_process:
             logger.info(f"Ingesting {json_file.name}...")
             ingester.ingest_fragment(json_file)
+            
+            update_ingested_log(log_file, json_file.name)
+            
         logger.info("Ingestion complete.")
     finally:
         ingester.close()

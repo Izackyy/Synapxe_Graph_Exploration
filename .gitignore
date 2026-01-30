@@ -1,0 +1,22 @@
+# Local Ingestion Logs
+ingested_files.txt
+graph_generation/src/ingested_files.txt
+
+# Data Directories
+# Ignores everything inside the data/ folder
+graph_generation/data/real/
+
+# Specific File Requests
+
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
