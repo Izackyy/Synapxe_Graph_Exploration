@@ -1,0 +1,50 @@
+Mr. Li Wei, 72 yo Chinese Male.
+
+**Past Medical History:**
+
+1. Hypertension, managed with Amlodipine.
+2. Type 2 Diabetes Mellitus, diet controlled.
+3. Osteoarthritis, bilateral knees.
+
+**Current Admission:**
+
+1.  Admission for shortness of breath and chest tightness.
+2.  Patient reports feeling weak and fatigued.
+3.  No fever, cough, or recent travel.
+
+**On Examination:**
+
+*   **HR:** 110, **SpO2:** 91% (2L NC), **RR:** 24, **BP:** 148/88 mmHg
+*   **Alertness:** Alert and oriented x3.
+*   **Heart:** Regular rhythm, S1S2, no murmurs.
+*   **Lungs:** Diffuse bilateral wheezes.
+*   **Abdomen:** Soft, non-tender.
+*   **Extremities:** No edema.
+
+**Initial Investigations:**
+
+*   **Urea:** 7.8 mmol/L, **Na:** 138, **K:** 3.9, **Bicarb:** 26
+*   **Hb:** 12.5 g/dL, **TW:** 4.8
+*   **Blood Glucose:** 8.2 mmol/L
+*   **Chest X-Ray:** Increased bronchovascular markings.
+*   **Sputum Culture:** Pending.
+
+**Issues/Progress:**
+
+1.  **Acute Exacerbation of COPD:**
+    *   Likely triggered by environmental factors.
+    *   Managed with nebulized bronchodilators and steroids.
+    *   Oxygen therapy initiated.
+2.  **Hypertension:**
+    *   Controlled with oral antihypertensives.
+3.  **Diabetes Management:**
+    *   Maintaining stable blood glucose levels with diet.
+
+**Goals of Care:**
+
+*   Patient prefers to return home upon improvement.
+*   Respiratory therapy consultation requested.
+*   Discuss smoking cessation with patient.
+
+**Patient responding to treatment. Respiratory distress improving. Scheduled for follow-up with pulmonologist.**
+

@@ -1,0 +1,71 @@
+Mr. Ravi Kumar, 62 yo Indian Male, Widowed. 
+
+**Past Medical History:**
+
+1.  Type 2 Diabetes Mellitus (T2DM) diagnosed 12 years ago, managed with Metformin 1000mg twice daily. HbA1c
+reported as 8.5% six months ago. Reports difficulty adhering to diet.
+2.  Essential Tremor, diagnosed approximately 20 years ago. Mildly impacts dexterity. Managed with Propranolol
+20mg twice daily.
+3.  Benign Prostatic Hyperplasia (BPH) diagnosed 5 years ago, currently managed with Tamsulosin 0.4mg once daily.
+4.  History of hyperlipidemia, on Atorvastatin 20mg daily.
+
+**Current Admission:**
+
+1.  Admission for persistent abdominal pain, nausea, and vomiting over the past 48 hours.
+2.  Patient reports inability to tolerate oral food or fluids.
+3.  No history of fever, hematemesis, or melena. Denies recent travel or sick contacts.
+4.  Family reports increasing confusion and agitation over the past several weeks.
+
+**On Examination:**
+
+*   **HR:** 98, **SpO2:** 97% (room air), **RR:** 18, **BP:** 202/110 mmHg
+*   **Alertness:** Anxious, mildly agitated, oriented to person but disoriented to place and time.  Able to follow
+simple commands.
+*   **Heart:** Regular rhythm, S1, S2, no murmurs.
+*   **Lungs:** Clear to auscultation bilaterally.
+*   **Abdomen:** Marked tenderness to palpation in the epigastric region. Distended and rigid.  Bowel sounds are
+absent.
+*   **Extremities:** No edema.
+*   **Neurological:** Normal gait and reflexes.
+
+**Initial Investigations:**
+
+*   **Urea:** 10.8 mmol/L, **Na:** 136, **K:** 3.5, **Bicarb:** 25, **Cr:** 128 µmol/L
+*   **Hb:** 13.5 g/dL, **TW:** 6.2, **Plt:** 410 x 10^9/L
+*   **Blood Glucose:** 16.8 mmol/L
+*   **Urinalysis:** Negative for leukocytes, nitrites, and blood.
+*   **CRP:** 160 mg/L
+*   **Amylase:** 780 U/L (Normal range: 22-109 U/L)
+*   **Lipase:** 1450 U/L (Normal range: 13-60 U/L)
+*   **CT Abdomen/Pelvis with IV Contrast:** Pancreatitis - head of pancreas enlarged and inflamed. No evidence of
+peripancreatic fluid collection.
+
+**Issues/Progress:**
+
+1.  **Acute Pancreatitis:**
+    *   Likely secondary to gallstones (ultrasound of gallbladder pending).
+    *   Managed with IV fluids, pain control (Morphine), and bowel rest (NPO).
+    *   Monitoring vital signs, pain levels, and abdominal examination.
+2.  **Hyperglycemia:**
+    *   Secondary to stress of illness.
+    *   Managed with sliding scale insulin regimen.
+3.  **Hypertension:**
+    *   Aggravated by stress and pain.
+    *   Controlled with IV Labetalol.
+4. **Possible Delirium:**
+    *  Family reporting confusion and agitation.
+    *  Assessing medication effects and underlying metabolic causes.
+
+**Goals of Care:**
+
+*   **Patient preference for aggressive management of pancreatitis.**
+*   **Pain and anxiety managed with Morphine and Lorazepam PRN.**
+*   **Dietician consult requested for nutritional support upon resolution of pancreatitis.**
+*   **Social work consult requested to assess patient's living situation and potential support needs upon
+discharge.**
+*   **Advance care planning discussion deferred until patient is medically stable.**
+
+**Patient currently stable, tolerating oral fluids. Pain is well-controlled with pain medication.  Amylase and
+lipase levels are trending downwards. Discharged with follow-up appointment with gastroenterologist.**
+
+**Note:** Patient reported difficulty affording his Metformin

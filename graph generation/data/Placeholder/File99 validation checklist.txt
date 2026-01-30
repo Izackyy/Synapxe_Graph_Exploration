@@ -1,0 +1,20 @@
+File99 validation checklist
+Nodes to Extract
+PatientNode: {"id": "P99", "name": "Chen Wei", "age": 72, "gender": "Male", "ethnicity": "Chinese"}
+
+MedicationNode: {"id": "MET01", "name": "Metformin"}
+
+ConditionNode: {"id": "T2DM", "name": "Type 2 Diabetes Mellitus"}
+
+EncounterNode: {"id": "E9901", "type": "Inpatient Admission"}
+
+LabResultNode: {"test_name": "HbA1c", "value": 8.2, "unit": "%"}
+
+Edges to Extract
+HAD_ENCOUNTER: source: P99, target: E9901, attr: {"occurrence_date": "2026-01-20"}
+
+TOOK: source: P99, target: MET01, attr: {"start_date": "2011-05-15", "dose": "1000mg", "intensity": "Twice Daily"}
+
+HAS_CONDITION: source: P99, target: T2DM, attr: {"occurrence_date": "2011-05-12", "status": "Active"}
+
+RESULTED_IN: source: E9901, target: HbA1c_Node (No attributes required)

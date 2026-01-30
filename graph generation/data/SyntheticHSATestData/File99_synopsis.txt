@@ -1,0 +1,29 @@
+Patient ID: P99 Source: Clinical Summary for validation of extraction schema.
+
+Patient Profile: Mr. Chen Wei, 72-year-old Chinese Male. Retired construction worker.
+
+Past Medical History:
+
+Condition: Type 2 Diabetes Mellitus diagnosed 15 years ago (occurrence_date: 2011-05-12). Currently "Active" status.
+
+Condition: Hyperlipidemia diagnosed 8 years ago (occurrence_date: 2018-09-01). Currently "Active" status.
+
+Medication History (Current):
+
+Medication: Metformin . Started 2011-05-15 (start_date). Currently ongoing (end_date: None). Duration: 5370 days (duration_days). Dose: 1000mg. Intensity: Twice Daily.
+
+Medication: Atorvastatin . Started 2018-09-05 (start_date). Ongoing. Dose: 20mg. Intensity: Nightly.
+
+Current Admission (Encounter):
+
+Encounter: Inpatient Admission . Encounter ID: E9901. Admission Date: 2026-01-20 (occurrence_date).
+
+Reason: Acute onset of shortness of breath and peripheral edema over 72 hours.
+
+Investigations (Lab Results): During admission E9901, the following labs were recorded:
+
+LabTest: HbA1c. Result: 8.2 (value) . Unit: % (unit).
+
+LabTest: Serum Creatinine. Result: 145.0 (value) . Unit: µmol/L (unit).
+
+Clinical Outcome: Patient stabilized on IV Diuretics. Discharged on 2026-01-25 (OutcomeEvent date).

@@ -1,0 +1,12 @@
+Nodes
+Patient [id, name, age, gender, ethnicity]
+Medication [id, name]
+Condition [id, name]
+Encounter [id, type]
+LabResult [test_name, value, unit]
+
+Edges
+Patient — HAD_ENCOUNTER → Encounter [occurrence_date]
+Patient — PRESCRIBED → Medication [start_date, end_date, duration_days, dose, intensity]
+Patient — HAS_CONDITION → Condition [occurrence_date, status]
+Encounter — RESULTED_IN → LabResult [No attributes]
