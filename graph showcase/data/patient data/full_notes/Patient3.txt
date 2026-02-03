@@ -1,0 +1,35 @@
+========================================
+PATIENT RECORD: S1013 - Priya Devi
+========================================
+
+**Past Medical History:**
+* **Cardiovascular & Coagulation**: History indicative of management for conditions like Atrial Fibrillation or VTE, currently on Warfarin and Aspirin.
+* **Hypertension**: Managed with Lisinopril and Amlodipine.
+* **Type 2 Diabetes Mellitus**: Managed with Metformin.
+
+**Current Admission:**
+* **Chief Complaint**: Admission for severe myalgia and muscle tenderness.
+* **Clinical Evolution**: Presents to Emergency Department with generalized fatigue and tea-colored urine, later progressing to severe muscle pain.
+
+**On Examination:**
+* **Clinical Presentation**: Acute onset of severe myalgia and marked muscle tenderness.
+
+**Initial Investigations:**
+* **Creatine Kinase (CK) Progression**: 
+    * **Admission**: Critically elevated at 38,283 U/L.
+    * **Peak**: Surged to a maximum recorded value of 46,638 U/L.
+    * **Serial Monitoring**: Persistent high levels checked including 39,116 U/L, 32,249 U/L, and 43,353 U/L.
+
+**Issues/Progress:**
+1.  **Rhabdomyolysis**: Likely secondary to complex polypharmacy co-exposures, specifically involving Atorvastatin and Lisinopril.
+2.  **Metabolic Complications**: Hyperkalemia identified as a significant risk; successfully resolved through medical management.
+3.  **Renal Health**: Monitored closely and remained stable throughout the hospital stay despite profound enzyme elevation.
+4.  **Trend**: CK levels began to trend down consistently following clinical intervention.
+
+**Goals of Care:**
+* **Normalization**: Ensure CK levels trend downward toward baseline through sustained recovery protocols.
+* **Hydration**: Maintain strict hydration protocols to facilitate pigment clearance.
+
+**Status:**
+* **Current State**: Patient is clinically stable; discharge lab CK improved to 329 U/L.
+* **Disposition**: Discharge planning finalized.

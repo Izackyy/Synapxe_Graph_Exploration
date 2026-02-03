@@ -1,0 +1,36 @@
+========================================
+PATIENT RECORD: S1018 - Muhammad Syazwan
+========================================
+
+**Past Medical History:**
+* **Hypertension**: Managed with Lisinopril and Amlodipine.
+* **Dyslipidemia**: Managed with Atorvastatin.
+* **Cardiovascular & Coagulation**: Maintained on Aspirin and Warfarin.
+* **Type 2 Diabetes Mellitus**: Managed with Metformin.
+
+**Current Admission:**
+* **Chief Complaint**: Admission for generalized fatigue.
+* **Clinical Presentation**: Fatigue reported consistently across all sequences; 
+no reports of muscle pain or tea-colored urine were documented.
+
+**On Examination:**
+* **Systemic**: Stable clinical status with no objective signs of muscle tenderness.
+
+**Initial Investigations:**
+* **Creatine Kinase (CK) Monitoring**:
+    * **Admission**: Baseline recorded at 213 U/L.
+    * **ED Monitoring**: Remained stable between 100 U/L and 233 U/L during the observation period.
+
+**Issues/Progress:**
+1.  **DDI Monitoring**: Evaluation for adverse effects related to the combination of Atorvastatin and Lisinopril.
+2.  **Metabolic Status**: Hyperkalemia was noted and resolved during the hospital stay.
+3.  **Renal Function**: Remained stable throughout the admission.
+4.  **Recovery Phase**: CK showed a mild increase during recovery (peaking at 892 U/L) but ultimately trended down.
+
+**Goals of Care:**
+* **Surveillance**: Monitor for the onset of any musculoskeletal symptoms.
+* **Hydration**: Maintain status to ensure renal protection.
+
+**Status:**
+* **Current State**: Patient stable; final CK improved to 892 U/L (trending down).
+* **Disposition**: Discharge planning is in progress.

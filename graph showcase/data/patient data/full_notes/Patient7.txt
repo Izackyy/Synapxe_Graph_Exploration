@@ -1,0 +1,37 @@
+========================================
+PATIENT RECORD: S1017 - Fatimah Binte Ahmad
+========================================
+
+**Past Medical History:**
+* **Chronic Cardiovascular Management**: Long-term regimen including Lisinopril, Atorvastatin, and Norasc (Amlodipine).
+* **Cardiovascular Prophylaxis**: Maintained on Aspirin and Warfarin.
+* **Metabolic**: Type 2 Diabetes Mellitus managed with Metformin.
+
+**Current Admission:**
+* **Chief Complaint**: Admission for generalized fatigue.
+* **Clinical Evolution**: The primary presentation was persistent fatigue; 
+the patient did not report myalgia or tea-colored urine during the clinical observation period.
+
+**On Examination:**
+* **Systemic**: Stable presentation; no objective muscle tenderness or weakness noted.
+
+**Initial Investigations:**
+* **Creatine Kinase (CK) Monitoring**:
+    * **Admission**: Baseline enzyme levels were within normal limits at 108 U/L.
+    * **Serial Checks**: Fluctuated within a stable low range (108 U/L – 247 U/L) 
+    during the Emergency Department evaluation.
+
+**Issues/Progress:**
+1.  **DDI Surveillance**: Monitoring for potential interactions between Atorvastatin and Lisinopril.
+2.  **Metabolic Management**: Hyperkalemia identified during the course of admission and resolved with treatment.
+3.  **Renal Function**: Remained stable throughout the stay.
+4.  **Enzyme Trend**: Asymptomatic course; however, discharge lab sequences 
+showed a transient recovery-phase peak (peaking at 859 U/L) before improving.
+
+**Goals of Care:**
+* **Normalization**: Ensure sustained downward trend of CK levels.
+* **Symptom Review**: Address ongoing fatigue and monitor for new muscle symptoms.
+
+**Status:**
+* **Current State**: Patient stable; CK improved to 781 U/L.
+* **Disposition**: Discharge planning finalized.

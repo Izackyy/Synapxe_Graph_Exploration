@@ -1,0 +1,38 @@
+========================================
+PATIENT RECORD: S1016 - Mei Xin
+========================================
+
+**Past Medical History:**
+* **Hypertension**: Managed with a combination of Lisinopril and Norasc (Amlodipine).
+* **Dyslipidemia**: Controlled with Atorvastatin.
+* **Cardiovascular Protection**: Maintained on Aspirin and Warfarin.
+* **Type 2 Diabetes Mellitus**: Managed with Metformin.
+
+**Current Admission:**
+* **Chief Complaint**: Admission for generalized fatigue.
+* **Clinical Evolution**: Patient consistently reported fatigue as the only presenting symptom; 
+there were no reports of myalgia or dark urine across the 10 Emergency Department sequences.
+
+**On Examination:**
+* **Systemic**: Hemodynamically stable; examination was unremarkable for 
+objective musculoskeletal tenderness or focal weakness.
+
+**Initial Investigations:**
+* **Creatine Kinase (CK) Monitoring**:
+    * **Admission**: Initial CK recorded at 223 U/L.
+    * **Serial Monitoring**: Baseline levels remained stable during the initial phase, ranging from 129 U/L to 247 U/L.
+
+**Issues/Progress:**
+1.  **Polypharmacy Risk**: Evaluation of the Atorvastatin and Lisinopril combination for potential adverse muscle effects.
+2.  **Metabolic Stability**: Hyperkalemia was noted and successfully resolved during the admission.
+3.  **Renal Health**: Renal function remained within stable limits throughout the hospital course.
+4.  **Biochemical Recovery**: CK levels showed a transient upward trend during recovery 
+(peaking at 977 U/L) before demonstrating a consistent downward trend.
+
+**Goals of Care:**
+* **Observation**: Monitor for the development of any delayed drug-induced muscle symptoms.
+* **Hydration**: Maintain adequate hydration to support renal clearance.
+
+**Status:**
+* **Current State**: Patient clinically stable; discharge lab CK improved to 218 U/L.
+* **Disposition**: Discharge planning is in progress.

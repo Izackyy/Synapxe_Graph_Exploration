@@ -1,0 +1,37 @@
+========================================
+PATIENT RECORD: S1019 - Siti Aminah
+========================================
+
+**Past Medical History:**
+* **Hypertension**: Chronic management with Lisinopril and Amlodipine.
+* **Dyslipidemia**: Managed with Atorvastatin.
+* **Cardiovascular Protection**: Maintained on Aspirin and Warfarin.
+* **Metabolic**: Type 2 Diabetes Mellitus managed with Metformin.
+
+**Current Admission:**
+* **Chief Complaint**: Admission for generalized fatigue.
+* **Clinical Presentation**: Fatigue was the only reported symptom; no episodes of 
+myalgia or dark urine occurred during evaluation.
+
+**On Examination:**
+* **Systemic**: Patient was stable with no objective clinical findings of muscle injury.
+
+**Initial Investigations:**
+* **Creatine Kinase (CK) Monitoring**:
+    * **Admission**: Baseline CK was within normal limits at 117 U/L.
+    * **ED Sequence**: Levels remained consistently low (117 U/L – 215 U/L).
+
+**Issues/Progress:**
+1.  **Safety Evaluation**: Assessing for adverse interactions between Atorvastatin and Lisinopril.
+2.  **Metabolic Management**: Hyperkalemia identified and resolved during the admission.
+3.  **Renal Health**: Maintained stable renal function throughout the course.
+4.  **Biochemical Trend**: CK showed a recovery-phase peak at 854 U/L 
+before trending downward toward baseline.
+
+**Goals of Care:**
+* **Monitoring**: Surveillance of CK levels to ensure normalization.
+* **Hydration**: Support myoglobin clearance if needed.
+
+**Status:**
+* **Current State**: Patient stable; discharge lab CK improved to 445 U/L.
+* **Disposition**: Discharge planning complete.

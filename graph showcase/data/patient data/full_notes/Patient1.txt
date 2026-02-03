@@ -1,0 +1,44 @@
+========================================
+PATIENT RECORD: S1011 - Rajendran s/o Muthu
+========================================
+
+**Past Medical History:**
+* **Chronic Cardiovascular Management**: Maintained on a long-term regimen of Lisinopril, Atorvastatin, and Aspirin. 
+* **Comorbidities**: Type 2 Diabetes Mellitus managed with Diabonex (Metformin) and Hypertension controlled via Norasc (Amlodipine). 
+
+**Current Admission:**
+1.  **Chief Complaint**: Presenting with a cluster of symptoms including severe myalgia, 
+generalized fatigue, and the passing of tea-colored urine. 
+2.  **Clinical Evolution**: Initial presentation of fatigue rapidly progressed to muscle tenderness and 
+significant bilateral thigh weakness noted during Emergency Department evaluation. 
+
+**On Examination:**
+* **Musculoskeletal**: Marked muscle tenderness and objective weakness in the lower extremities. 
+* **Systemic**: Patient appeared fatigued but remained hemodynamically stable. 
+* **Renal Status**: Monitored closely due to the high risk of pigment-induced acute kidney injury from profound muscle breakdown. 
+
+**Initial Investigations:**
+* **Creatine Kinase (CK) Progression**: 
+    * **Admission**: Recorded at 27,847 U/L. 
+    * **Peak Elevation**: Surged to a maximum of 45,877 U/L during the acute phase. 
+    * **Serial Monitoring**: Levels remained critically high through multiple checks, 
+    including values of 38,181 U/L, 36,573 U/L, and 43,823 U/L. 
+* **Urinalysis**: Consistent with clinical reports of tea-colored urine, indicating significant myoglobinuria. 
+
+**Issues/Progress:**
+1.  **Statin-Induced Rhabdomyolysis**: Onset strongly correlated with the co-exposure of Atorvastatin and Lisinopril. 
+2.  **Electrolyte Management**: Hyperkalemia was identified early in the admission; 
+it was successfully resolved through medical intervention. 
+3.  **Renal Function Preservation**: Despite the massive release of muscle tenderness, 
+renal function remained stable throughout the hospital course due to prompt treatment. 
+4.  **Clinical Recovery**: Following aggressive intervention, muscle symptoms improved, 
+and CK levels began a consistent downward trend. 
+
+**Goals of Care:**
+* **Renal Protection**: Maintenance of aggressive hydration to facilitate the clearance of myoglobin. 
+* **Biochemical Normalization**: Continued serial monitoring to ensure CK levels return toward baseline. 
+
+**Status:**
+* **Current State**: Patient is clinically stable; CK improved significantly to 290 U/L. 
+* **Disposition**: Discharge planning is currently in progress. 
+---

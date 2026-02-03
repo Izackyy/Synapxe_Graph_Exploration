@@ -1,0 +1,37 @@
+========================================
+PATIENT RECORD: S1012 - Tan Wei Ling
+========================================
+
+**Past Medical History:**
+* **Hypertension**: Managed with Lisinopril and Amlodipine. 
+* **Dyslipidemia**: Managed with Atorvastatin. 
+* **Type 2 Diabetes Mellitus**: Managed with Metformin. 
+
+**Current Admission:**
+* **Chief Complaint**: Admission for bilateral thigh weakness and muscle tenderness. 
+* **Clinical Presentation**: Patient reports tea-colored urine and persistent generalized fatigue. 
+
+**On Examination:**
+* **Clinical Findings**: Mild muscle tenderness and objective bilateral thigh weakness noted during evaluation. 
+
+**Initial Investigations:**
+* **Creatine Kinase (CK) Monitoring**: 
+    * **Admission**: Elevated at 1,865 U/L. 
+    * **Peak**: Multiple recordings peaking at 2,196 U/L. 
+    * **Serial Trends**: Stable elevations between 1,268 U/L and 2,080 U/L recorded during the initial period. 
+
+**Issues/Progress:**
+1.  **Mild Myopathy**: Investigated for potential drug-drug interaction (DDI) between Atorvastatin and Lisinopril. 
+2.  **Renal Function**: Remained stable throughout the admission; monitored for complications related to potential myoglobinuria. 
+3.  **Metabolic Management**: Hyperkalemia was resolved successfully during the course of treatment. 
+4.  **Recovery**: CK levels demonstrated a consistent downward trend with clinical improvement. 
+
+**Goals of Care:**
+* **Hydration**: Maintain optimal hydration status to prevent complications. 
+* **Normalization**: Ensure CK levels continue trending down toward normal ranges. 
+
+**Status:**
+* **Current State**: Patient is stable with CK improved significantly to 189 U/L. 
+* **Disposition**: Follow-up scheduled; discharge planning in progress. 
+
+---

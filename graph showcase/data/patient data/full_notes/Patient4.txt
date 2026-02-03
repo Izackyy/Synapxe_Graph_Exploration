@@ -1,0 +1,40 @@
+========================================
+PATIENT RECORD: S1014 - Chloe de Souza
+========================================
+
+**Past Medical History:**
+* **Hypertension**: Chronic management with Lisinopril.
+* **Cardiovascular Risk**: Managed with a multi-drug regimen including Atorvastatin, Warfarin, and Aspirin.
+* **Metabolic**: Type 2 Diabetes Mellitus managed with Diabex (Metformin).
+
+**Current Admission:**
+* **Chief Complaint**: Admission for persistent generalized fatigue.
+* **Clinical Evolution**: Patient consistently reported generalized fatigue throughout the 10-sequence Emergency Department
+ observation period, with no acute reports of myalgia or tea-colored urine.
+
+**On Examination:**
+* **Systemic**: Stable clinical presentation; no objective findings of muscle tenderness or 
+lower limb weakness were documented during evaluation.
+
+**Initial Investigations:**
+* **Creatine Kinase (CK) Monitoring**: 
+    * **Admission**: Baseline recorded at 148 U/L.
+    * **Serial Checks**: Remained within normal physiological limits during the initial phase with 
+    minor fluctuations (range: 124 U/L – 226 U/L).
+
+**Issues/Progress:**
+1.  **High-Risk Polypharmacy**: Concurrent use of Atorvastatin and Lisinopril identified as a 
+otential risk factor for drug-induced injury.
+2.  **Electrolyte Monitoring**: Hyperkalemia identified during the stay; resolved successfully 
+with medical intervention and monitoring.
+3.  **Renal Function**: Maintained stability throughout the hospitalization.
+4.  **Recovery Trend**: Discharge summaries indicated a peaking trend in CK during the recovery phase (
+    peaking at 906 U/L) followed by improvement.
+
+**Goals of Care:**
+* **Safety Monitoring**: Routine surveillance of muscle enzymes given high-risk drug combinations.
+* **Symptom Management**: Address persistent fatigue and stabilize metabolic markers.
+
+**Status:**
+* **Current State**: Patient clinically stable; discharge lab CK improved to 164 U/L.
+* **Disposition**: Discharge planning finalized.

@@ -1,0 +1,37 @@
+========================================
+PATIENT RECORD: S1020 - Karthik Raja
+========================================
+
+**Past Medical History:**
+* **Hypertension**: Managed with Lisinopril and Amlodipine.
+* **Dyslipidemia**: Managed with Atorvastatin.
+* **Cardiovascular Prophylaxis**: Maintained on Aspirin and Warfarin.
+* **Type 2 Diabetes Mellitus**: Managed with Metformin.
+
+**Current Admission:**
+* **Chief Complaint**: Admission for persistent generalized fatigue.
+* **Clinical Evolution**: Fatigue remained the primary symptom; patient 
+denied muscle tenderness or dark urine throughout the admission.
+
+**On Examination:**
+* **Systemic**: Stable; no focal weakness or muscle tenderness on examination.
+
+**Initial Investigations:**
+* **Creatine Kinase (CK) Monitoring**:
+    * **Admission**: Baseline enzyme levels were 177 U/L.
+    * **ED Checks**: Consistently recorded within a range of 131 U/L to 227 U/L.
+
+**Issues/Progress:**
+1.  **DDI Monitoring**: Investigating risk of adverse effects from combined Lisinopril and Atorvastatin.
+2.  **Metabolic Management**: Hyperkalemia successfully identified and resolved.
+3.  **Renal Function**: Remained stable throughout the hospital stay.
+4.  **Recovery Trend**: Clinical improvement mirrored by CK levels, 
+which peaked at 900 U/L during the recovery phase before trending down.
+
+**Goals of Care:**
+* **Surveillance**: Monitor for potential muscle symptom onset.
+* **Normalization**: Facilitate CK return to baseline.
+
+**Status:**
+* **Current State**: Patient is stable; final CK improved to 515 U/L.
+* **Disposition**: Discharge planning finalized.

@@ -1,0 +1,38 @@
+========================================
+PATIENT RECORD: S1015 - David Lim
+========================================
+
+**Past Medical History:**
+* **Hypertension**: Managed with a combination of Lisinopril and Norasc (Amlodipine).
+* **Dyslipidemia**: Controlled with Atorvastatin.
+* **Cardiovascular Prophylaxis**: Maintained on Aspirin and Warfarin.
+* **Type 2 Diabetes Mellitus**: Managed with Metformin.
+
+**Current Admission:**
+* **Chief Complaint**: Admission for persistent generalized fatigue.
+* **Clinical Evolution**: The patient reported fatigue as the primary and only symptom 
+throughout the ED sequence, denying muscle pain or changes in urine color.
+
+**On Examination:**
+* **Systemic**: Hemodynamically stable; examination was negative for 
+objective muscle tenderness or focal weakness.
+
+**Initial Investigations:**
+* **Creatine Kinase (CK) Monitoring**:
+    * **Admission**: Baseline CK was within normal limits at 107 U/L.
+    * **Serial Monitoring**: Initial phase showed stable low-level enzymes with minimal variation (122 U/L – 228 U/L).
+
+**Issues/Progress:**
+1.  **Medication Safety**: Monitored for potential drug-drug interactions (DDI) involving Atorvastatin and Lisinopril.
+2.  **Metabolic Management**: Hyperkalemia identified and resolved during the hospital course.
+3.  **Renal Function**: Remained stable and within normal parameters.
+4.  **Enzyme Trend**: Asymptomatic for clinical myopathy; however, discharge lab sequences 
+showed a transient CK peak during recovery (reaching 973 U/L) before trending downward.
+
+**Goals of Care:**
+* **Safety Surveillance**: Periodic monitoring of CK levels due to concurrent high-risk medication use.
+* **Symptom Evaluation**: Ongoing management of fatigue.
+
+**Status:**
+* **Current State**: Patient stable; CK improved to 639 U/L.
+* **Disposition**: Discharge planning completed.
