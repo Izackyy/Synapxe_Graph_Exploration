@@ -1,0 +1,382 @@
+name,description,query,id,parentId,isFolder
+load graph,,,0,,true
+patient_condition label,,"CALL gds.graph.project(
+  'patientConditionGraph',
+  ['Patient', 'Condition'],
+  {
+    IS_DIAGNOSED_WITH: {
+      type: 'IS_DIAGNOSED_WITH',
+      orientation: 'UNDIRECTED'
+    }
+  }
+)",1,0,false
+patient_meds label,,"CALL gds.graph.project(
+  'v3MedSimilarity',
+  ['Patient', 'Medication'],
+  {
+    IS_PRESCRIBED: {
+      type: 'IS_PRESCRIBED',
+      orientation: 'UNDIRECTED'
+    }
+  }
+)",2,0,false
+load edges,,"LOAD CSV WITH HEADERS FROM 'file:///edges_v3.csv' AS row
+MATCH (s {id: trim(row.source)})
+MATCH (t {id: trim(row.target)})
+CALL apoc.merge.relationship(s, trim(row.type), {}, {
+    occurrence_date: date(trim(row.occurrence_date)),
+    start_date: date(trim(row.start_date)),
+    duration_days: toInteger(row.duration_days)
+}, t) YIELD rel
+RETURN count(rel);",3,0,false
+load nodes,,"LOAD CSV WITH HEADERS FROM 'file:///nodes_v3.csv' AS row
+MERGE (n:Node {id: trim(row.id)})
+SET n.name = trim(row.name),
+    n.clinical_summary = trim(row.clinical_summary),
+    n.age = toInteger(row.age)
+WITH n, row
+CALL apoc.create.addLabels(n, [row.label]) YIELD node
+REMOVE node:Node
+RETURN count(node);",4,0,false
+Showcase,,,5,,true
+Case 1 (Visual),,"// 1. Get GDS equivalents and Lisinopril into one unique list
+OPTIONAL CALL gds.nodeSimilarity.stream('v3MedSimilarity', {
+    similarityCutoff: 0.1, 
+    degreeCutoff: 1
+}) YIELD node1, node2
+WHERE gds.util.asNode(node1).name = 'Lisinopril' OR gds.util.asNode(node2).name = 'Lisinopril'
+
+// 2. Project both nodes of the pair into a single column so we can collect them
+WITH gds.util.asNode(node1) AS n1, gds.util.asNode(node2) AS n2
+UNWIND [n1, n2] AS meds
+WITH DISTINCT meds WHERE meds:Medication
+
+// 3. Find the Patients (Lisinopril + Equivalents)
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(meds)
+MATCH (p)-[r2:IS_DIAGNOSED_WITH]->(c:Condition {id: 'C1'})
+
+// 4. Wider 30-day window to capture Priya Devi (22 days) and Rajendran
+WHERE duration.between(date(r1.start_date), date(r2.occurrence_date)).days <= 30
+  AND duration.between(date(r1.start_date), date(r2.occurrence_date)).days >= 0
+  AND p.clinical_summary CONTAINS 'soreness'
+
+// 5. Return the visualization
+RETURN p, meds, c, r1, r2",6,5,false
+Case 1 (Similarity),,"// 1. Get GDS equivalents (Atorvastatin, etc.)
+CALL gds.nodeSimilarity.stream('v3MedSimilarity', {
+    similarityCutoff: 0.1, 
+    degreeCutoff: 1
+}) YIELD node1, node2, similarity
+WHERE gds.util.asNode(node1).name = 'Lisinopril' OR gds.util.asNode(node2).name = 'Lisinopril'
+
+WITH similarity, 
+     CASE 
+        WHEN gds.util.asNode(node1).name = 'Lisinopril' THEN gds.util.asNode(node2) 
+        ELSE gds.util.asNode(node1) 
+     END AS meds
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(meds)
+MATCH (p)-[r2:IS_DIAGNOSED_WITH]->(c:Condition {id: 'C1'})
+WHERE duration.between(date(r1.start_date), date(r2.occurrence_date)).days <= 30
+  AND duration.between(date(r1.start_date), date(r2.occurrence_date)).days >= 0
+  AND p.clinical_summary CONTAINS 'soreness'
+RETURN p.name AS Patient, meds.name AS Drug_Used, similarity AS Score
+
+UNION
+
+// 2. Explicitly include the Anchor Drug (Lisinopril)
+MATCH (meds:Medication {name: 'Lisinopril'})
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(meds)
+MATCH (p)-[r2:IS_DIAGNOSED_WITH]->(c:Condition {id: 'C1'})
+WHERE duration.between(date(r1.start_date), date(r2.occurrence_date)).days <= 30
+  AND duration.between(date(r1.start_date), date(r2.occurrence_date)).days >= 0
+  AND p.clinical_summary CONTAINS 'soreness'
+RETURN p.name AS Patient, meds.name AS Drug_Used, 1.0 AS Score
+ORDER BY Score DESC",7,5,false
+Case 1 (Query),,"MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(m:Medication {name: 'Lisinopril'})
+MATCH (p)-[r2:IS_DIAGNOSED_WITH]->(c:Condition {id: 'C1'})
+RETURN 
+    p.name AS Patient,
+    p.clinical_summary AS Notes,
+    r1.start_date AS Rx_Start,
+    r2.occurrence_date AS Injury_Date,
+    duration.between(date(r1.start_date), date(r2.occurrence_date)).days AS Gap_Days,
+    p.clinical_summary CONTAINS 'soreness' AS Has_Keyword",8,5,false
+Case 2 (Similarity),,"// 1. Find the switch pattern in the data
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(m1:Medication)
+MATCH (p)-[r2:EXPERIENCED_TRIGGER]->(t:Trigger)
+MATCH (p)-[r3:IS_PRESCRIBED]->(m2:Medication)
+
+// 2. Filter for the 48-hour switch window
+WHERE m1 <> m2 
+  AND duration.between(date(r2.occurrence_date), date(r3.start_date)).days <= 2
+  AND duration.between(date(r2.occurrence_date), date(r3.start_date)).days >= 0
+
+// 3. Use GDS to check if the two meds are actually similar
+WITH p, m1, m2, t, r1, r2, r3
+CALL gds.nodeSimilarity.stream('v3MedSimilarity', {
+    similarityCutoff: 0.1
+}) YIELD node1, node2, similarity
+WHERE (node1 = id(m1) AND node2 = id(m2)) OR (node1 = id(m2) AND node2 = id(m1))
+
+// 4. Return the path and the GDS Similarity score
+RETURN p.name, m1.name AS From_Drug, m2.name AS To_Drug, similarity AS Equivalence_Score",9,5,false
+Case 2 (Query),,"// 1. Match the initial medication and the subsequent trigger
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(m1:Medication)
+MATCH (p)-[r2:EXPERIENCED_TRIGGER]->(t:Trigger {name: 'Statin-Induced Myopathy'})
+
+// 2. Match the ""Switch"" medication
+MATCH (p)-[r3:IS_PRESCRIBED]->(m2:Medication)
+
+// 3. Temporal and Logical Constraints
+WHERE m1 <> m2 
+  // Trigger must happen after the first med started
+  AND date(r2.occurrence_date) >= date(r1.start_date)
+  // Second med must start within 48 hours (2 days) of the trigger
+  AND duration.between(date(r2.occurrence_date), date(r3.start_date)).days <= 2
+  AND duration.between(date(r2.occurrence_date), date(r3.start_date)).days >= 0
+
+// 4. Return the switch pathway
+RETURN p.name AS Patient, 
+       m1.name AS Original_Med, 
+       t.name AS Reaction, 
+       m2.name AS New_Med, 
+       r2.occurrence_date AS Switch_Date",10,5,false
+Case 2 (Visual),,"// 1. Match the full switch chain
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(m1:Medication)
+MATCH (p)-[r2:EXPERIENCED_TRIGGER]->(t:Trigger)
+MATCH (p)-[r3:IS_PRESCRIBED]->(m2:Medication)
+
+// 2. Temporal Logic (Switch within 48 hours of trigger)
+WHERE m1 <> m2 
+  AND date(r1.start_date) <= date(r2.occurrence_date)
+  AND duration.between(date(r2.occurrence_date), date(r3.start_date)).days <= 2
+  AND duration.between(date(r2.occurrence_date), date(r3.start_date)).days >= 0
+
+// 3. THE FIX: Only keep pairs with high similarity
+// We increase the cutoff to 0.2 to filter out Lisinopril's 0.125
+WITH p, m1, t, m2, r1, r2, r3
+CALL gds.nodeSimilarity.stream('v3MedSimilarity') 
+YIELD node1, node2, similarity
+WHERE ((gds.util.asNode(node1) = m1 AND gds.util.asNode(node2) = m2) OR 
+       (gds.util.asNode(node1) = m2 AND gds.util.asNode(node2) = m1))
+  AND similarity > 0.2
+
+RETURN p, m1, t, m2, r1, r2, r3, similarity",11,5,false
+Case 3 (Query),,"// 1. Identify ACE Inhibitors (Lisinopril + GDS Equivalents)
+CALL gds.nodeSimilarity.stream('v3MedSimilarity', {similarityCutoff: 0.1}) 
+YIELD node1, node2
+WHERE gds.util.asNode(node1).name = 'Lisinopril' OR gds.util.asNode(node2).name = 'Lisinopril'
+WITH gds.util.asNode(node1) AS n1, gds.util.asNode(node2) AS n2
+UNWIND [n1, n2] AS familyNodes
+WITH DISTINCT familyNodes AS aceInhibitor
+WHERE aceInhibitor:Medication
+
+// 2. Find patients prescribed both an ACE Inhibitor and a Statin
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(aceInhibitor)
+MATCH (p)-[r2:IS_PRESCRIBED]->(statin:Medication)
+WHERE (statin.name = 'Atorvastatin' OR statin.class = 'Statin')
+  AND aceInhibitor <> statin
+
+// 3. Match the Injury (C1)
+MATCH (p)-[r3:IS_DIAGNOSED_WITH]->(c:Condition {id: 'C1'})
+
+// 4. Simplified Temporal Logic: Injury happened while both meds were ""Active""
+// We assume they are active if the injury happened after they started
+// and either before they ended OR the end_date is missing (ongoing)
+WHERE date(r3.occurrence_date) >= date(r1.start_date) 
+  AND (r1.end_date IS NULL OR date(r3.occurrence_date) <= date(r1.end_date))
+  AND date(r3.occurrence_date) >= date(r2.start_date)
+  AND (r2.end_date IS NULL OR date(r3.occurrence_date) <= date(r2.end_date))
+
+RETURN p.name AS Patient, 
+       aceInhibitor.name AS ACE_Inhibitor, 
+       statin.name AS Statin, 
+       r3.occurrence_date AS Injury_Date,
+       r1.start_date AS ACE_Start,
+       r2.start_date AS Statin_Start",12,5,false
+Case 3 (Visual),,"// 1. Identify ACE Inhibitor family (Lisinopril + GDS Equivalents)
+CALL gds.nodeSimilarity.stream('v3MedSimilarity', {similarityCutoff: 0.1}) 
+YIELD node1, node2
+WHERE gds.util.asNode(node1).name = 'Lisinopril' OR gds.util.asNode(node2).name = 'Lisinopril'
+WITH gds.util.asNode(node1) AS n1, gds.util.asNode(node2) AS n2
+UNWIND [n1, n2] AS familyNodes
+WITH DISTINCT familyNodes AS aceInhibitor
+WHERE aceInhibitor:Medication
+
+// 2. Match the Patient taking BOTH drugs and the resulting Condition
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(aceInhibitor)
+MATCH (p)-[r2:IS_PRESCRIBED]->(statin:Medication)
+MATCH (p)-[r3:IS_DIAGNOSED_WITH]->(c:Condition {id: 'C1'})
+
+// 3. Clinical & Temporal Logic
+WHERE (statin.name = 'Atorvastatin' OR statin.class = 'Statin')
+  AND aceInhibitor <> statin
+  // Ensure the injury happened during the overlap of both drugs
+  AND date(r3.occurrence_date) >= date(r1.start_date) 
+  AND (r1.end_date IS NULL OR date(r3.occurrence_date) <= date(r1.end_date))
+  AND date(r3.occurrence_date) >= date(r2.start_date)
+  AND (r2.end_date IS NULL OR date(r3.occurrence_date) <= date(r2.end_date))
+
+// 4. Return nodes and edges for the visual graph
+RETURN p, aceInhibitor, statin, c, r1, r2, r3",13,5,false
+Case 3 (Summary),,"// 1. Identify ACE Inhibitor family (Lisinopril + GDS Equivalents)
+CALL gds.nodeSimilarity.stream('v3MedSimilarity', {similarityCutoff: 0.1}) 
+YIELD node1, node2
+WHERE gds.util.asNode(node1).name = 'Lisinopril' OR gds.util.asNode(node2).name = 'Lisinopril'
+WITH gds.util.asNode(node1) AS n1, gds.util.asNode(node2) AS n2
+UNWIND [n1, n2] AS familyNodes
+WITH DISTINCT familyNodes AS aceInhibitor
+WHERE aceInhibitor:Medication
+
+// 2. Match the Patient taking BOTH drugs and the resulting Condition
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(aceInhibitor)
+MATCH (p)-[r2:IS_PRESCRIBED]->(statin:Medication)
+MATCH (p)-[r3:IS_DIAGNOSED_WITH]->(c:Condition {id: 'C1'})
+
+// 3. Clinical & Temporal Logic
+WHERE (statin.name = 'Atorvastatin' OR statin.class = 'Statin')
+  AND aceInhibitor <> statin
+  // Ensure the injury happened during the overlap of both drugs
+  AND date(r3.occurrence_date) >= date(r1.start_date) 
+  AND (r1.end_date IS NULL OR date(r3.occurrence_date) <= date(r1.end_date))
+  AND date(r3.occurrence_date) >= date(r2.start_date)
+  AND (r2.end_date IS NULL OR date(r3.occurrence_date) <= date(r2.end_date))
+
+// 4. Return nodes and edges for the visual graph
+RETURN p, aceInhibitor, statin, c, r1, r2, r3",14,5,false
+Case 4 (Query),,"// 1. Identify ACE Inhibitor family (GDS)
+CALL () {
+  CALL gds.nodeSimilarity.stream('v3MedSimilarity', {similarityCutoff: 0.1}) 
+  YIELD node1, node2
+  WHERE gds.util.asNode(node1).name = 'Lisinopril'
+  RETURN collect(gds.util.asNode(node2)) + collect(gds.util.asNode(node1)) AS aceInhibitors
+}
+
+// 2. Identify Statin family (GDS)
+CALL () {
+  CALL gds.nodeSimilarity.stream('v3MedSimilarity', {similarityCutoff: 0.1}) 
+  YIELD node1, node2
+  WHERE gds.util.asNode(node1).name = 'Atorvastatin'
+  RETURN collect(gds.util.asNode(node2)) + collect(gds.util.asNode(node1)) AS statins
+}
+
+// 3. Find Patients and evaluate risk
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(m1) WHERE m1 IN aceInhibitors
+MATCH (p)-[r2:IS_PRESCRIBED]->(m2) WHERE m2 IN statins
+MATCH (p)-[r3:IS_DIAGNOSED_WITH]->(rdm:Condition {id: 'C1'})
+
+// 4. Contextualize with Hypertension
+OPTIONAL MATCH (p)-[:HAS_HISTORY|IS_DIAGNOSED_WITH]->(h:Condition {name: 'Hypertension'})
+
+// 5. Refined Temporal Logic
+WITH p, m1, m2, h, rdm, r1, r2, r3,
+     CASE WHEN date(r1.start_date) > date(r2.start_date) THEN date(r1.start_date) ELSE date(r2.start_date) END AS comboStartDate
+WHERE m1 <> m2
+  AND date(r3.occurrence_date) >= comboStartDate
+  AND duration.between(comboStartDate, date(r3.occurrence_date)).days <= 30
+
+// 6. Final Aggregate Result
+RETURN 
+    m1.name + "" + "" + m2.name AS Drug_Combination,
+    count(DISTINCT p) AS Patient_Count,
+    avg(duration.between(comboStartDate, date(r3.occurrence_date)).days) AS Avg_Days_to_Injury,
+    count(DISTINCT h) AS Patients_With_Hypertension
+ORDER BY Patient_Count DESC",15,5,false
+Case 4 (Visual),,"// 1. Identify ACE Inhibitor family (GDS)
+CALL () {
+  CALL gds.nodeSimilarity.stream('v3MedSimilarity', {similarityCutoff: 0.1}) 
+  YIELD node1, node2
+  WHERE gds.util.asNode(node1).name = 'Lisinopril'
+  RETURN collect(gds.util.asNode(node2)) + collect(gds.util.asNode(node1)) AS aceInhibitors
+}
+
+// 2. Identify Statin family (GDS)
+CALL () {
+  CALL gds.nodeSimilarity.stream('v3MedSimilarity', {similarityCutoff: 0.1}) 
+  YIELD node1, node2
+  WHERE gds.util.asNode(node1).name = 'Atorvastatin'
+  RETURN collect(gds.util.asNode(node2)) + collect(gds.util.asNode(node1)) AS statins
+}
+
+// 3. Match Patients, Drugs, and Conditions
+MATCH (p:Patient)-[r1:IS_PRESCRIBED]->(m1) WHERE m1 IN aceInhibitors
+MATCH (p)-[r2:IS_PRESCRIBED]->(m2) WHERE m2 IN statins
+MATCH (p)-[r3:IS_DIAGNOSED_WITH]->(rdm:Condition {id: 'C1'})
+OPTIONAL MATCH (p)-[rh:HAS_HISTORY|IS_DIAGNOSED_WITH]->(h:Condition {name: 'Hypertension'})
+
+// 4. Visual Temporal Filtering
+WITH p, m1, m2, h, rdm, r1, r2, r3, rh,
+     CASE WHEN date(r1.start_date) > date(r2.start_date) THEN date(r1.start_date) ELSE date(r2.start_date) END AS comboStartDate
+WHERE m1 <> m2
+  AND date(r3.occurrence_date) >= comboStartDate
+  AND duration.between(comboStartDate, date(r3.occurrence_date)).days <= 30
+
+// 5. Return the full visual subgraph
+RETURN p, m1, m2, rdm, h, r1, r2, r3, rh",16,5,false
+Case 5 (Query),,"CALL gds.nodeSimilarity.stream('patientConditionGraph')
+YIELD node1, node2, similarity
+WHERE gds.util.asNode(node1):Patient AND gds.util.asNode(node2):Patient
+
+WITH gds.util.asNode(node1) AS p1, gds.util.asNode(node2) AS p2, similarity
+// Find where p1 has Rhabdomyolysis and p2 does not
+MATCH (p1)-[:IS_DIAGNOSED_WITH]->(c:Condition)
+WHERE c.id = 'C1' OR c.name CONTAINS 'RDM' OR c.name CONTAINS 'Rhabdo'
+  AND NOT (p2)-[:IS_DIAGNOSED_WITH]->(c)
+
+RETURN p2.name AS High_Risk_Patient, 
+       p1.name AS Clinical_Twin_With_Injury, 
+       similarity AS Match_Score,
+       // Show what they share to prove why they are twins
+       apoc.coll.intersection(
+         [(p1)-[:HAS_HISTORY|IS_DIAGNOSED_WITH]->(cond) | cond.name],
+         [(p2)-[:HAS_HISTORY|IS_DIAGNOSED_WITH]->(cond) | cond.name]
+       ) AS Shared_Conditions
+ORDER BY Match_Score DESC",17,5,false
+Case 6 (Query),,"// 1. Get Clinical Twin Score (Phenotype)
+CALL () {
+  CALL gds.nodeSimilarity.stream('patientConditionGraph')
+  YIELD node1, node2, similarity
+  WHERE gds.util.asNode(node1).name = 'Rajendran s/o Muthu'
+  RETURN gds.util.asNode(node2) AS p, similarity AS phenoScore
+}
+
+// 2. Filter out patients who ALREADY have RDM (C1)
+MATCH (p)
+WHERE NOT (p)-[:IS_DIAGNOSED_WITH]->(:Condition {id: 'C1'})
+
+// 3. Get Medication Similarity
+OPTIONAL MATCH (p)-[:IS_PRESCRIBED]->(m)
+CALL () {
+  CALL gds.nodeSimilarity.stream('v3MedSimilarity', {similarityCutoff: 0.005})
+  YIELD node1, node2, similarity
+  WHERE gds.util.asNode(node1).name IN ['Lisinopril', 'Atorvastatin']
+  RETURN gds.util.asNode(node2) AS targetMed, similarity AS medSim
+}
+WITH p, phenoScore, m, targetMed, medSim
+WHERE m = targetMed
+
+// 4. Aggregate Med Risk and Calculate Weighted Overall Risk
+WITH p, phenoScore, sum(medSim) AS rawMedScore
+WITH p, phenoScore, (rawMedScore / 2.0) AS medRisk
+WITH p, phenoScore, medRisk,
+     (phenoScore * 0.4) + (medRisk * 0.6) AS overallRisk
+
+// 5. Final Watchlist Output
+RETURN p.name AS Patient,
+       round(phenoScore, 4) AS Clinical_Similarity,
+       round(medRisk, 4) AS Medication_Risk,
+       round(overallRisk, 4) AS Overall_Risk,
+       CASE 
+         WHEN overallRisk >= 0.5 THEN 'CRITICAL'
+         WHEN overallRisk >= 0.25 THEN 'HIGH'
+         ELSE 'MONITORED'
+       END AS Category
+ORDER BY overallRisk DESC",18,5,false
+reset graph,,,19,,true
+reset graph,,MATCH (n) DETACH DELETE n;,20,19,false
+Reset all,,"// Delete all data
+MATCH (n) DETACH DELETE n;
+
+// Clear existing GDS projections to avoid name conflicts
+CALL gds.graph.drop(""v3MedSimilarity"", FALSE);
+CALL gds.graph.drop(""patientConditionGraph"", FALSE);",21,19,false

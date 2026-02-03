@@ -1,0 +1,74 @@
+[REDACTED] [REDACTED][REDACTED] [REDACTED_PASSPORT] 68 yo Malay Male, Widower, Lives with son and daughter-in-law
+in [REDACTED] (Tampines, Singapore)
+**Past Medical History**
+1. Type 2 Diabetes Mellitus (T2DM) on Metformin and Glipizide
+2. Hypertension (HTN) on Amlodipine
+3. Chronic Kidney Disease (CKD) Stage 3
+4. Mild Cognitive Impairment (MCI)
+5. Chronic Obstructive Pulmonary Disease (COPD) on Salbutamol and Ipratropium
+6. History of Left Ventricular Hypertrophy (LVH)
+
+**Current Admission**
+1. Acute confusion over 3 days, associated with 2 episodes of incontinence and 1 fall in the home
+2. Mild fever (37.8°C), intermittent chills, and generalized weakness
+3. No history of chest pain, dyspnea, or hematuria
+4. No recent weight loss, but noted poor appetite and 5 kg weight loss over 6 months
+5. Patient reports 1 episode of hematochezia 2 weeks prior, self-treated with loperamide
+6. Family reports progressive memory decline and difficulty with daily tasks
+
+**On Examination**
+- **HR:** 112, **SpO2:** 92% (2 L/min), **RR:** 22, **BP:** 104/68
+- **Alertness:** Confused, disoriented to time and place, responds to name
+- **Irregular heart beat:** No JVP elevation
+- **Heart:** S1, S2, no murmurs
+- **Lungs:** Clear bilaterally
+- **Abdomen:** Soft, non-tender, no palpable masses
+- **Extremities:** Mild bilateral ankle edema
+- **Neurological:** Mild tremor in right hand, no focal deficits
+- **Bedside US:** No free fluid, IVC non-compressible
+
+**Initial Investigations**
+- **Urea:** 28.4, **Na:** 132, **K:** 5.1, **Bicarb:** 18, **Cr:** 210
+- **Hb:** 10.2, **TW:** 6.8, **Plt:** 120
+- **Blood Glucose:** 18.3 mmol/L
+- **Urinalysis:** Positive for leukocytes, nitrites, and blood
+- **CRP:** 140 mg/L
+- **Chest X-ray:** Mild bilateral perihilar infiltrates, no consolidation
+- **CT Head:** No acute stroke or hemorrhage, mild atrophy
+
+**Issues/Progress**
+1. **Severe UTI with sepsis:**
+   - Urine culture: *Escherichia coli* (susceptible to Ciprofloxacin)
+   - Cultured and covered with IV Ceftriaxone
+   - **AKI** (Cr 210) managed with IV hydration and dialysis (not initiated due to patient preference)
+   - **Hyperglycemia** managed with IV insulin drip (HbA1c 9.8%)
+
+2. **Delirium secondary to UTI and CKD:**
+   - Confusion resolved with IV antibiotics and hydration
+   - **MCI** confirmed on neuropsychological testing; family consulted for long-term care
+
+3. **Mild hematochezia:**
+   - **Proctoscopy:** No visible masses, no overt bleeding
+   - **Stool occult blood:** Positive
+   - **Colonoscopy pending** due to acute sepsis
+
+4. **COPD exacerbation:**
+   - **PFT:** Not performed due to acute illness
+   - **Oxygen therapy:** 2 L/min via nasal cannula
+
+**Goals of Care**
+- **DNR:** Not for CPR, intubation, or dialysis
+- **Comfort measures:** Pain and anxiety managed with low-dose morphine and benzodiazepines
+- **Family preference:** Transfer to palliative care unit for end-of-life support
+
+**Patient Demised on 10/3/2023 at 03:15 h**
+**COD:**
+1. **Sepsis secondary to UTI**
+2. **Acute Kidney Injury (AKI)**
+3. **Chronic Kidney Disease (CKD) Stage 3**
+4. **Type 2 Diabetes Mellitus (T2DM)**
+
+**Care Plan:**
+- Palliative care consultation for symptom management
+- Family counseling on DNR and advance care planning
+- Referral to social services for home-based care coordination
