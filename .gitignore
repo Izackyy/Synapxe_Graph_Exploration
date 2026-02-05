@@ -6,6 +6,7 @@ graph_generation/src/ingested_files.txt
 graph_generation/data/real/
 graph_generation/src/graph_outputs/
 .vscode/
+.github/
 
 # Specific File Requests
 

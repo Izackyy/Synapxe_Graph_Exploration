@@ -1,0 +1,39 @@
+id,name,label,class,age,gender,ethnicity,religion,clinical_summary
+M1,Atorvastatin,Medication,Statin,,,,,
+M2,Rosuvastatin,Medication,Statin,,,,,
+M3,Simvastatin,Medication,Statin,,,,,
+M13,Ticagrelor,Medication,P2Y12_Inhibitor,,,,,
+M14,Pravastatin,Medication,Statin,,,,,
+M4,Lisinopril,Medication,ACE_Inhibitor,,,,,
+C1,Rhabdomyolysis,Condition,Muscle_Injury,,,,,
+C2,Hypertension,Condition,Cardiovascular,,,,,
+C6,Myopathy,Condition,Muscle_Injury,,,,,
+C7,Acute Kidney Injury,Condition,Renal,,,,,
+S1,Myalgia,Symptom,Clinical_Sign,,,,,
+S2,Tea-colored urine,Symptom,Clinical_Sign,,,,,
+ETH_Chinese,Chinese,Ethnicity,,,,,,
+ETH_Malay,Malay,Ethnicity,,,,,,
+ETH_Indian,Indian,Ethnicity,,,,,,
+REL_Muslim,Muslim,Religion,,,,,,
+REL_Buddhist,Buddhist,Religion,,,,,,
+REL_Hindu,Hindu,Religion,,,,,,
+P101,Patient_P101,Patient,,53.0,Male,Malay,Buddhist,Patient presents with severe muscle pain and dark urine after starting Ticagrelor and Simvastatin 80mg. CK peaked at 48799 U/L.
+P102,Patient_P102,Patient,,69.0,Male,Indian,Buddhist,Patient presents with severe muscle pain and dark urine after starting Ticagrelor and Simvastatin 80mg. CK peaked at 44783 U/L.
+P103,Patient_P103,Patient,,59.0,Male,Chinese,Muslim,Patient presents with severe muscle pain and dark urine after starting Ticagrelor and Simvastatin 80mg. CK peaked at 49927 U/L.
+P104,Patient_P104,Patient,,47.0,Male,Malay,Hindu,Patient presents with severe muscle pain and dark urine after starting Ticagrelor and Simvastatin 80mg. CK peaked at 41134 U/L.
+P105,Patient_P105,Patient,,69.0,Male,Malay,Hindu,Patient presents with severe muscle pain and dark urine after starting Ticagrelor and Simvastatin 80mg. CK peaked at 48274 U/L.
+P106,Patient_P106,Patient,,79.0,Male,Malay,Muslim,Patient reported significant muscle weakness on Rosuvastatin 40mg and Ticagrelor. CK elevated to 5177 U/L.
+P107,Patient_P107,Patient,,76.0,Female,Indian,Muslim,Patient reported significant muscle weakness on Rosuvastatin 40mg and Ticagrelor. CK elevated to 5112 U/L.
+P108,Patient_P108,Patient,,59.0,Male,Malay,Hindu,Patient reported significant muscle weakness on Rosuvastatin 40mg and Ticagrelor. CK elevated to 5313 U/L.
+P109,Patient_P109,Patient,,61.0,Male,Malay,Hindu,Patient reported significant muscle weakness on Rosuvastatin 40mg and Ticagrelor. CK elevated to 7866 U/L.
+P110,Patient_P110,Patient,,56.0,Male,Malay,Muslim,Patient reported significant muscle weakness on Rosuvastatin 40mg and Ticagrelor. CK elevated to 7934 U/L.
+P111,Patient_P111,Patient,,73.0,Male,Malay,Buddhist,Patient on Atorvastatin 20mg and Ticagrelor. Reported mild myalgia. CK slightly elevated at 1468 U/L.
+P112,Patient_P112,Patient,,54.0,Female,Chinese,Buddhist,Patient on Atorvastatin 20mg and Ticagrelor. Reported mild myalgia. CK slightly elevated at 1350 U/L.
+P113,Patient_P113,Patient,,64.0,Female,Indian,Hindu,Patient on Atorvastatin 20mg and Ticagrelor. Reported mild myalgia. CK slightly elevated at 1374 U/L.
+P114,Patient_P114,Patient,,66.0,Male,Indian,Hindu,Patient on Atorvastatin 20mg and Ticagrelor. Reported mild myalgia. CK slightly elevated at 1034 U/L.
+P115,Patient_P115,Patient,,71.0,Male,Chinese,Hindu,Patient on Atorvastatin 20mg and Ticagrelor. Reported mild myalgia. CK slightly elevated at 1387 U/L.
+P116,Patient_P116,Patient,,71.0,Male,Chinese,Hindu,Patient on Ticagrelor and Pravastatin for cardiovascular protection. No muscle symptoms reported. CK stable.
+P117,Patient_P117,Patient,,62.0,Female,Indian,Muslim,Patient on Ticagrelor and Pravastatin for cardiovascular protection. No muscle symptoms reported. CK stable.
+P118,Patient_P118,Patient,,80.0,Male,Indian,Hindu,Patient on Ticagrelor and Pravastatin for cardiovascular protection. No muscle symptoms reported. CK stable.
+P119,Patient_P119,Patient,,60.0,Female,Chinese,Muslim,Patient on Ticagrelor and Pravastatin for cardiovascular protection. No muscle symptoms reported. CK stable.
+P120,Patient_P120,Patient,,45.0,Female,Malay,Muslim,Patient on Ticagrelor and Simvastatin 80mg. Stable; no muscle symptoms reported. CK remains normal at 169 U/L.
