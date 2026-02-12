@@ -1,3 +1,5 @@
+Discontinued this repo, moved to Synapxe UCT
+
 # simple-kg-/graph showcase
 Contains synthetic patient and graph data, script for data generation and merging
 Patient data:
